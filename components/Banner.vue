@@ -27,7 +27,7 @@
           <carousel :items="1">
         <!-- Slide Item -->
         <div class="slide-item">
-          <div class="image-layer" style="background-image: url(/images/main-slider/1.jpg);"></div>
+          <div class="image-layer" style="background-image: url(/images/main-slider/keyboard1.jpg);"></div>
           <div class="left-top-line"></div>
           <div class="right-bottom-curve"></div>
           <div class="right-top-curve"></div>
@@ -36,7 +36,7 @@
               <div class="content">
                 <div class="inner">
                   <div class="sub-title">welcome to Linoor agency</div>
-                  <h1>Smart Web <br>Design Agency</h1>
+                  <h1>Make Your<br>Vision Reality</h1>
                   <div class="link-box">
                     <nuxt-link class="theme-btn btn-style-one" to="/about">
                       <i class="btn-curve"></i>
@@ -51,7 +51,7 @@
 
         <!-- Slide Item -->
         <div class="slide-item">
-          <div class="image-layer" style="background-image: url(/images/main-slider/2.jpg);"></div>
+          <div class="image-layer" style="background-image: url(/images/main-slider/city1.jpg);"></div>
           <div class="left-top-line"></div>
           <div class="right-bottom-curve"></div>
           <div class="right-top-curve"></div>
