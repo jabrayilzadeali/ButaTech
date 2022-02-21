@@ -35,7 +35,7 @@
             <div class="content-box">
               <div class="content">
                 <div class="inner">
-                  <div class="sub-title">welcome to Linoor agency</div>
+                  <div class="sub-title">welcome to Best Freelance Company</div>
                   <h1>Make Your<br>Vision Reality</h1>
                   <div class="link-box">
                     <nuxt-link class="theme-btn btn-style-one" to="/about">
