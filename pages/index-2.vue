@@ -1,7 +1,8 @@
 <template>
   <div>
     <Nav />
-    <BannerTwo />
+	<Banner />
+    <!-- <BannerTwo /> -->
     <FunFacts />
     <ServicesTwo />
     <FeaturedSection />
@@ -12,7 +13,8 @@
     <QuoteSection/>
     <BrandsSection />
     <BlogSection />
-    <FluidSection />
+    <!-- <FluidSection /> -->
+    <CallToAction />
     <Footer />
   </div>
 </template>
@@ -21,7 +23,8 @@
 <script>
   import Nav from "../components/Nav";
   import Footer from "../components/Footer";
-  import BannerTwo from "../components/BannerTwo";
+//   import BannerTwo from "../components/BannerTwo";
+  import Banner from "../components/Banner";
   import FunFacts from "../components/FunFacts";
   import ServicesTwo from "../components/ServicesTwo";
   import FeaturedSection from "../components/FeaturedSection";
@@ -32,10 +35,12 @@
   import QuoteSection from "../components/QuoteSection";
   import BrandsSection from "../components/BrandsSection";
   import BlogSection from "../components/BlogSection";
-  import FluidSection from "../components/FluidSection";
+//   import FluidSection from "../components/FluidSection";
+  import CallToAction from "../components/CallToAction";
   export default {
     components: {
-      FluidSection,
+    //   FluidSection,
+	  CallToAction,
       BlogSection,
       BrandsSection,
       QuoteSection,
@@ -46,7 +51,8 @@
       FeaturedSection,
       ServicesTwo,
       FunFacts,
-      BannerTwo,
+    //   BannerTwo,
+	  Banner,
       Footer,
       Nav
     },

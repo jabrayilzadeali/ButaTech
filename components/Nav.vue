@@ -84,7 +84,8 @@
     </div>
     <!--End Header Upper-->
 
-    <nav class="mobile-nav__container">
+	<!-- added fixed top mobile-nav__container -->
+    <nav class="mobile-nav__container fixed-top">
       <!-- content is loading via js -->
 
       <div :class="`collapse navbar-collapse ${mobileToggle ? 'show' : ''} clearfix`">
