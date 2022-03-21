@@ -3,15 +3,15 @@
     <Nav />
 	<Banner />
     <!-- <BannerTwo /> -->
-    <FunFacts />
     <ServicesTwo />
     <FeaturedSection />
     <GalleryCarousel />
     <WhyUsSection />
     <Testimonial />
-    <Features />
+    <!-- <Features /> -->
     <QuoteSection/>
     <BrandsSection />
+    <FunFacts />
     <BlogSection />
     <!-- <FluidSection /> -->
     <CallToAction />
@@ -31,7 +31,7 @@
   import GalleryCarousel from "../components/GalleryCarousel";
   import WhyUsSection from "../components/WhyUsSection";
   import Testimonial from "../components/Testimonial";
-  import Features from "../components/Features";
+//   import Features from "../components/Features";
   import QuoteSection from "../components/QuoteSection";
   import BrandsSection from "../components/BrandsSection";
   import BlogSection from "../components/BlogSection";
@@ -44,7 +44,7 @@
       BlogSection,
       BrandsSection,
       QuoteSection,
-      Features,
+    //   Features,
       Testimonial,
       WhyUsSection,
       GalleryCarousel,

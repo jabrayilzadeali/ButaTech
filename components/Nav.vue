@@ -6,9 +6,12 @@
       <div class="inner-container clearfix">
         <!--Logo-->
         <div class="logo-box">
-          <div class="logo"><a href="/" title="Linoor - Digital Agency Template"><img
-            src="/images/website-logo.png" id="thm-logo" alt="Linoor - DIgital Agency HTML Template"
-            title="Linoor - DIgital Agency Template"></a></div>
+          <div class="logo">
+            <a href="/" title="Linoor - Digital Agency Template">
+              <img src="/images/website-logo.png" id="thm-logo" alt="Linoor - DIgital Agency HTML Template" title="Linoor - DIgital Agency Template" >
+              Website Name
+            </a>
+          </div>
         </div>
         <div class="nav-outer clearfix">
           <!--Mobile Navigation Toggler-->
@@ -145,7 +148,7 @@
     data(){
       return {
         sticky: false,
-        mobileToggle: false
+        mobileToggle: false,
       }
     },
     mounted() {
@@ -164,7 +167,6 @@
 
     },
     methods: {
-
       handleScroll() {
         if (window.scrollY > 70) {
           this.sticky = true
