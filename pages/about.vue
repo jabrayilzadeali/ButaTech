@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Nav />
+    <Nav current="About" />
     <PageHeader title="About" />
     <DiscoverPage />
     <Testimonial />

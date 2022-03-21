@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Nav />
+    <Nav current="Blog" />
     <PageHeader title="Blog Sidebar" />
     <BlogSidebar />
     <Footer />

@@ -23,14 +23,14 @@
           <nav class="main-menu navbar-expand-md navbar-light">
             <div class="collapse navbar-collapse show clearfix">
               <ul class="navigation clearfix">
-                <li class="current dropdown"><a href="/">Home</a>
+                <li :class="`${current === 'Home' ? 'current' : ''} dropdown`"><a href="/">Home</a>
                   <ul>
                     <li><nuxt-link to="/">Home Style 01</nuxt-link></li>
                     <li><nuxt-link to="/index-2">Home Style 02</nuxt-link></li>
                     <li><nuxt-link to="/index-3">Home Style 03</nuxt-link></li>
                   </ul>
                 </li>
-                <li><nuxt-link to="/about">About Us</nuxt-link></li>
+                <li :class="`${current === 'About' ? 'current' : ''}`"><nuxt-link to="/about">About Us</nuxt-link></li>
                 <li class="dropdown"><a href="/team">Pages</a>
                   <ul>
                     <li><nuxt-link to="/team">Our Team</nuxt-link></li>
@@ -39,7 +39,7 @@
                     <li><nuxt-link to="/not-found">404 Page</nuxt-link></li>
                   </ul>
                 </li>
-                <li class="dropdown"><nuxt-link to="/services">Services</nuxt-link>
+                <li :class="`${current === 'Services' ? 'current' : ''} dropdown`"><nuxt-link to="/services">Services</nuxt-link>
                   <ul>
                     <li><nuxt-link to="/services">All Services</nuxt-link></li>
                     <li><nuxt-link to="/web-development">Website Development</nuxt-link></li>
@@ -57,14 +57,14 @@
                     <li><nuxt-link to="/portfolio-single-2">Portfolio Single 02</nuxt-link></li>
                   </ul>
                 </li>
-                <li class="dropdown"><nuxt-link to="/blog-grid">Blog</nuxt-link>
+                <li :class="`${current === 'Blog' ? 'current' : ''} dropdown`"><nuxt-link to="/blog-grid">Blog</nuxt-link>
                   <ul>
                     <li><nuxt-link to="/blog">Blog Sidebar</nuxt-link></li>
                     <li><nuxt-link to="/blog-grid">Blog Grid View</nuxt-link></li>
                     <li><nuxt-link to="/blog-single">Blog Single</nuxt-link></li>
                   </ul>
                 </li>
-                <li><nuxt-link to="/contact">Contact</nuxt-link></li>
+                <li :class="`${current === 'Contact' ? 'current' : ''} dropdown`"><nuxt-link to="/contact">Contact</nuxt-link></li>
               </ul>
             </div>
           </nav>
@@ -145,6 +145,11 @@
 <script>
   export default {
     name: "Nav",
+    props: {
+      current: {
+        type: String
+      }
+    },
     data(){
       return {
         sticky: false,
@@ -158,10 +163,10 @@
       const dropdownMenu = mobileNav.querySelectorAll('.dropdown');
       
       for (let i = 0; i < dropdownMenu.length; i++) {
-          dropdownMenu[i].addEventListener("click", function() {
-          this.classList.toggle('open');
-          this.classList.toggle('current');
-          });
+        dropdownMenu[i].addEventListener("click", function() {
+        this.classList.toggle('open');
+        this.classList.toggle('current');
+        });
       }
 
 
@@ -174,9 +179,9 @@
           this.sticky = false
         }
       },
-	  whichPage() {
-		  return document.URL
-	  }
+      whichPage() {
+        return document.URL
+      }
     }
   }
 </script>

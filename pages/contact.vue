@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Nav />
+    <Nav current="Contact" />
     <PageHeader title="Contact" />
     <ContactPage />
     <Footer />

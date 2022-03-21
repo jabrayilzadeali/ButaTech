@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Nav />
+    <Nav current="Home" />
 	<Banner />
     <!-- <BannerTwo /> -->
     <ServicesTwo />
