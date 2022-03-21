@@ -9,7 +9,7 @@
           <div class="logo">
             <a href="/" title="Linoor - Digital Agency Template">
               <img src="/images/website-logo.png" id="thm-logo" alt="Linoor - DIgital Agency HTML Template" title="Linoor - DIgital Agency Template" >
-              Website Name
+              <span class="logo-text">Website Name</span>
             </a>
           </div>
         </div>
