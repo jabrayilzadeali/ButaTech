@@ -2,6 +2,7 @@
   <div>
     <Nav current="Contact" />
     <PageHeader title="Contact" />
+    <FaqSection />
     <ContactPage />
     <Footer />
   </div>
@@ -11,9 +12,11 @@
   import PageHeader from "../components/PageHeader";
   import Footer from "../components/Footer";
   import ContactPage from "../components/ContactPage";
+	import FaqSection from '../components/FaqSection.vue';
   export default {
     components: {
       ContactPage,
+      FaqSection,
       Footer,
       PageHeader,
       Nav
