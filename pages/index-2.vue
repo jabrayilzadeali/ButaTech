@@ -1,65 +1,62 @@
 <template>
   <div>
-    <Nav current="Home" />
-	<Banner />
-    <!-- <BannerTwo /> -->
-    <ServicesTwo />
-    <FeaturedSection />
-    <GalleryCarousel />
-    <WhyUsSection />
-    <Testimonial />
-    <!-- <Features /> -->
-    <QuoteSection/>
+    <Nav />
+    <Banner />
+    <Services />
+    <About />
+    <LiveSection />
+    <WedoSection />
+    <GallerySection />
+    <FactSection />
+    <TrustedSection />
+    <TeamSection />
+    <ParallaxSection />
     <BrandsSection />
-    <FunFacts />
+    <AgencySection />
     <BlogSection />
-    <!-- <FluidSection /> -->
     <CallToAction />
     <Footer />
   </div>
 </template>
 
-
 <script>
+
   import Nav from "../components/Nav";
-  import Footer from "../components/Footer";
-//   import BannerTwo from "../components/BannerTwo";
   import Banner from "../components/Banner";
-  import FunFacts from "../components/FunFacts";
-  import ServicesTwo from "../components/ServicesTwo";
-  import FeaturedSection from "../components/FeaturedSection";
-  import GalleryCarousel from "../components/GalleryCarousel";
-  import WhyUsSection from "../components/WhyUsSection";
-  import Testimonial from "../components/Testimonial";
-//   import Features from "../components/Features";
-  import QuoteSection from "../components/QuoteSection";
+  import Services from "../components/Services";
+  import About from "../components/About";
+  import LiveSection from "../components/LiveSection";
+  import WedoSection from "../components/WedoSection";
+  import GallerySection from "../components/GallerySection";
+  import FactSection from "../components/FactSection";
+  import TrustedSection from "../components/TrustedSection";
+  import TeamSection from "../components/TeamSection";
+  import ParallaxSection from "../components/ParallaxSection";
   import BrandsSection from "../components/BrandsSection";
+  import AgencySection from "../components/AgencySection";
   import BlogSection from "../components/BlogSection";
-//   import FluidSection from "../components/FluidSection";
   import CallToAction from "../components/CallToAction";
+  import Footer from "../components/Footer";
+
   export default {
     components: {
-    //   FluidSection,
-	  CallToAction,
-      BlogSection,
-      BrandsSection,
-      QuoteSection,
-    //   Features,
-      Testimonial,
-      WhyUsSection,
-      GalleryCarousel,
-      FeaturedSection,
-      ServicesTwo,
-      FunFacts,
-    //   BannerTwo,
-	  Banner,
       Footer,
+      CallToAction,
+      BlogSection,
+      AgencySection,
+      BrandsSection,
+      ParallaxSection,
+      TeamSection,
+      TrustedSection,
+      FactSection,
+      GallerySection,
+      WedoSection,
+      LiveSection,
+      About,
+      Services,
+      Banner,
       Nav
-    },
-    head(){
-      return {
-        title: "Linoor | Home 2"
-      }
+
     }
   }
 </script>
