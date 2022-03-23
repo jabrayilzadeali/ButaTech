@@ -137,7 +137,10 @@
           <li><nuxt-link to="/contact">Contact</nuxt-link></li>
         </ul>
       </div>
+	
+      <!-- <li v-if="!mobileToggle">Okay Buddy</li> -->
     </nav>
+    <div @click="mobileToggle = !mobileToggle" v-if="mobileToggle" class="navbar-overlay"></div>
 
   </header>
 </template>
