@@ -31,14 +31,14 @@
                   </ul>
                 </li>
                 <li :class="`${current === 'About' ? 'current' : ''}`"><nuxt-link to="/about">About Us</nuxt-link></li>
-                <li class="dropdown"><a href="/team">Pages</a>
+                <!-- <li class="dropdown"><a href="/team">Pages</a>
                   <ul>
                     <li><nuxt-link to="/team">Our Team</nuxt-link></li>
                     <li><nuxt-link to="/testimonials">Testimonials</nuxt-link></li>
                     <li><nuxt-link to="/faqs">FAQs</nuxt-link></li>
                     <li><nuxt-link to="/not-found">404 Page</nuxt-link></li>
                   </ul>
-                </li>
+                </li> -->
                 <li :class="`${current === 'Services' ? 'current' : ''} dropdown`"><nuxt-link to="/services">Services</nuxt-link>
                   <ul>
                     <li><nuxt-link to="/services">All Services</nuxt-link></li>
@@ -101,14 +101,14 @@
             </ul>
           </li>
           <li><nuxt-link to="/about">About Us</nuxt-link></li>
-          <li class="dropdown"><a href="#">Pages<div class="dropdown-btn"><span class="fa fa-angle-right"></span></div></a>
+          <!-- <li class="dropdown"><a href="#">Pages<div class="dropdown-btn"><span class="fa fa-angle-right"></span></div></a>
             <ul class="sub-menu">
               <li><nuxt-link to="/team">Our Team</nuxt-link></li>
               <li><nuxt-link to="/testimonials">Testimonials</nuxt-link></li>
               <li><nuxt-link to="/faqs">FAQs</nuxt-link></li>
               <li><nuxt-link to="/not-found">404 Page</nuxt-link></li>
             </ul>
-          </li>
+          </li> -->
           <li class="dropdown"><nuxt-link to="#">Services<div class="dropdown-btn"><span class="fa fa-angle-right"></span></div></nuxt-link>
             <ul class="sub-menu">
               <li><nuxt-link to="/services">All Services</nuxt-link></li>
