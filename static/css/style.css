@@ -90,9 +90,9 @@
 :root {
   --thm-font: "Teko", sans-serif;
   /* --thm-base: #ffaa17; */
-  --thm-base: #83dcfa !important;
+  --thm-base: #73a5ff !important;
   /* --thm-base-rgb: 255, 170, 23; */
-  --thm-base-rgb: 131, 220, 250;
+  --thm-base-rgb: 115, 165, 255;
   --thm-black: #222429;
   --thm-text: #686a6f;
 }
@@ -595,7 +595,7 @@ img {
   top: 0;
   width: 44px;
   height: 42px;
-  background: url(../images/icons/chat-icon.png) left center no-repeat;
+  background: url(../images/colors/color-5/icons/chat-icon.png) left center no-repeat;
 }
 
 .main-header .other-links .link-box .sub-text {
@@ -6052,7 +6052,7 @@ img.lazy-image.loaded {
   top: 0;
   width: 100%;
   height: 100%;
-  background: url(../images/icons/shape-1.png) left top no-repeat;
+  background: url(../images/colors/color-5/icons/shape-1.png) left top no-repeat;
   z-index: 1;
 }
 
