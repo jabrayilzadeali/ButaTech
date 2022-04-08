@@ -1701,7 +1701,7 @@ img.lazy-image.loaded {
   width: 350px;
   max-width: 100%;
   height: 100%;
-  background: url(../images/colors/color-3/main-slider/left-curve-line.png) left top no-repeat;
+  background: url(../images/colors/color-5/main-slider/left-curve-line.png) left top no-repeat;
   z-index: 2;
   opacity: 0;
   -webkit-transform: translateY(-100%);
@@ -1737,7 +1737,7 @@ img.lazy-image.loaded {
   width: 655px;
   max-width: 100%;
   height: 100%;
-  background: url(../images/colors/color-3/main-slider/right-curved-bg.png) right bottom
+  background: url(../images/colors/color-5/main-slider/right-curved-bg.png) right bottom
     no-repeat;
   z-index: 2;
   opacity: 0;
@@ -7948,7 +7948,7 @@ img.lazy-image.loaded {
   width: 250px;
   max-width: 100%;
   height: 100%;
-  background: url(../images/background/b-shape-1.png) right bottom no-repeat;
+  background: url(../images/colors/color-5/background/b-shape-1.png) right bottom no-repeat;
   z-index: 1;
 }
 
