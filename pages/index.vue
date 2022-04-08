@@ -3,7 +3,8 @@
     <Nav current="Home" />
 	<Banner />
     <!-- <BannerTwo /> -->
-    <ServicesTwo />
+    <!-- <ServicesTwo /> -->
+    <Services />
     <FeaturedSection />
     <GalleryCarousel />
     <WhyUsSection />
@@ -26,7 +27,8 @@
 //   import BannerTwo from "../components/BannerTwo";
   import Banner from "../components/Banner";
   import FunFacts from "../components/FunFacts";
-  import ServicesTwo from "../components/ServicesTwo";
+//   import ServicesTwo from "../components/ServicesTwo";
+  import Services from "../components/Services";
   import FeaturedSection from "../components/FeaturedSection";
   import GalleryCarousel from "../components/GalleryCarousel";
   import WhyUsSection from "../components/WhyUsSection";
@@ -49,7 +51,8 @@
       WhyUsSection,
       GalleryCarousel,
       FeaturedSection,
-      ServicesTwo,
+    //   ServicesTwo,
+      Services,
       FunFacts,
     //   BannerTwo,
 	  Banner,
