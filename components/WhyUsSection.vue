@@ -22,7 +22,7 @@
         <div class="right-col col-lg-6 col-md-12 col-sm-12">
           <div class="inner">
             <div class="sec-title">
-              <h2>See Why you should choose linoor <span class="dot">.</span></h2>
+              <h2>See Why you should choose ButaTech <span class="dot">.</span></h2>
             </div>
             <div class="features">
               <div class="feature">
