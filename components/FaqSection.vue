@@ -111,7 +111,7 @@
   }
 
   .ac.is-active .ac-q {
-    color: #FFAA17 !important;
+    color: #73a5ff !important;
   }
   .ac>.ac-q::after {
     content: '+';
