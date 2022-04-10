@@ -155,7 +155,7 @@
     padding: 20px 105px;
     margin-right: 0.2rem;
     cursor: pointer;
-    background: #FFAA17;
+    background: #73a5ff;
     font-weight: bold;
     transition: background ease 0.2s;
     font-size: 22px;
