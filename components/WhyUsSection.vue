@@ -27,23 +27,20 @@
             <div class="features">
               <div class="feature">
                 <div class="inner-box">
-                  <h6>We think differently</h6>
-                  <div class="text">Lorem Ipsum nibh vel velit auctor aliquet. Aenean sollic
-                    tudin, lorem is simply free text quis bibendum.</div>
+                  <h6>We Value Your Time and Money</h6>
+                  <div class="text">have affordible prices that not only suitable for individual persons but also large Coorporations</div>
                 </div>
               </div>
               <div class="feature">
                 <div class="inner-box">
-                  <h6>did High quality projects</h6>
-                  <div class="text">Lorem Ipsum nibh vel velit auctor aliquet. Aenean sollic
-                    tudin, lorem is simply free text quis bibendum.</div>
+                  <h6>Quality over Quantity</h6>
+                  <div class="text">Less is More. We focus quality of the project rather than quantity</div>
                 </div>
               </div>
               <div class="feature">
                 <div class="inner-box">
                   <h6>super expert team members</h6>
-                  <div class="text">Lorem Ipsum nibh vel velit auctor aliquet. Aenean sollic
-                    tudin, lorem is simply free text quis bibendum.</div>
+                  <div class="text">Everyone in out team has experience to build sophisticated applications</div>
                 </div>
               </div>
             </div>
