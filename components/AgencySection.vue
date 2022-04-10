@@ -132,7 +132,7 @@
     display: none;
   }
   .agency-tabs input[type="radio"]:checked + label {
-    background: #F4F5F8;
+    background: #acacac;
   }
   .agency-tabs input[type="radio"]:checked + label + .tab {
     display: block;
