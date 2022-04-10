@@ -104,7 +104,8 @@
     padding: 4px 31px;
     margin-right: 0.2rem;
     cursor: pointer;
-    background: #FFAA17;
+	/* --thm-base: # !important; */
+    background: #73a5ff;
     font-weight: 500;
     transition: background ease 0.2s;
     font-size: 18px;
