@@ -1,7 +1,7 @@
 <template>
   <div>
     <Nav />
-    <PageHeader title="Portfolio Single" />
+    <PageHeader title="Product Single" />
     <GallerySingle />
     <Footer />
   </div>

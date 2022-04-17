@@ -1,7 +1,7 @@
 <template>
   <div>
     <Nav />
-    <PageHeader title="Portfolio" />
+    <PageHeader title="Products" />
     <GalleryPage />
     <Footer />
   </div>
@@ -20,7 +20,7 @@
     },
     head(){
       return {
-        title: "Linoor | Portfolio"
+        title: "Linoor | Products"
       }
     }
   }
