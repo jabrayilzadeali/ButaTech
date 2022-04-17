@@ -36,7 +36,7 @@
           <div class="inner-box">
             <div class="bottom-curve"></div>
             <div class="icon-box"><span class="flaticon-digital-marketing"></span></div>
-            <h6><nuxt-link to="/digital-marketing">digital <br>marketing</nuxt-link></h6>
+            <h6><nuxt-link to="/digital-marketing">Programming</nuxt-link></h6>
           </div>
         </div>
         <!--Service Block-->
@@ -45,16 +45,17 @@
           <div class="inner-box">
             <div class="bottom-curve"></div>
             <div class="icon-box"><span class="flaticon-development"></span></div>
-            <h6><nuxt-link to="/seo">seo & content <br>writing</nuxt-link></h6>
+            <h6><nuxt-link to="/seo">pcb</nuxt-link></h6>
           </div>
         </div>
         <!--Service Block-->
+
         <div class="service-block col-xl-3 col-lg-6 col-md-6 col-sm-12 wow fadeInLeft"
              data-wow-delay="600ms" data-wow-duration="1500ms">
           <div class="inner-box">
             <div class="bottom-curve"></div>
             <div class="icon-box"><span class="flaticon-app-development"></span></div>
-            <h6><nuxt-link to="/app-development">App <br>Development</nuxt-link></h6>
+            <h6><nuxt-link to="/app-development">IT</nuxt-link></h6>
           </div>
         </div>
         <!--Service Block-->
@@ -63,7 +64,7 @@
           <div class="inner-box">
             <div class="bottom-curve"></div>
             <div class="icon-box"><span class="flaticon-ui"></span></div>
-            <h6><nuxt-link to="/ui-designing">Ui/UX <br>designing</nuxt-link></h6>
+            <h6><nuxt-link to="/ui-designing">Printer</nuxt-link></h6>
           </div>
         </div>
       </div>
