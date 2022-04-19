@@ -7,9 +7,9 @@
         <!--Logo-->
         <div class="logo-box">
           <div class="logo">
-            <a href="/" title="Linoor - Digital Agency Template">
-              <img src="/images/website-logo.png" id="thm-logo" alt="Linoor - DIgital Agency HTML Template" title="Linoor - DIgital Agency Template" >
-              <span class="logo-text">Website Name</span>
+            <a href="/" title="Linoor - Digital Agency Template" id="thm-logo-container">
+              <img src="/images/logoV3.png" id="thm-logo" alt="Linoor - DIgital Agency HTML Template" title="Linoor - DIgital Agency Template" >
+              <span class="logo-text"></span>
             </a>
           </div>
         </div>

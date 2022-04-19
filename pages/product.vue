@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Nav />
+    <Nav current="Product" />
     <PageHeader title="Products" />
     <GalleryPage />
     <Footer />

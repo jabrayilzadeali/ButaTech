@@ -11,7 +11,7 @@
             <div class="footer-widget logo-widget">
               <div class="widget-content">
                 <div class="logo">
-                  <nuxt-link to="/"><img id="fLogo" src="/images/website-logo.png" alt="" /></nuxt-link>
+                  <nuxt-link to="/"><img id="fLogo" src="/images/logo.png" alt="" /></nuxt-link>
                 </div>
                 <div class="text">Welcome to our web design agency. Lorem ipsum simply free text
                   dolor sited amet cons cing elit.</div>

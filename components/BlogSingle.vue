@@ -5,6 +5,7 @@
 
         <!--Content Side-->
         <div class="content-side col-lg-8 col-md-12 col-sm-12">
+
           <div class="blog-details">
             <!--News Block-->
             <div class="post-details">
@@ -20,8 +21,9 @@
                       <li><span class="far fa-comments"></span> 2 Comments</li>
                     </ul>
                   </div>
-                  <h4>basic rules of running web agency business</h4>
+                  <h4>{{ contentText.title }}</h4>
                   <div class="text">
+                    <nuxt-content :document="contentText" />
                     <p>There are many variations of passages of Lorem Ipsum available, but the
                       majority have suffered alteration in some form, by injected humour, or
                       randomised words which don't look even slightly believable. If you are
@@ -277,7 +279,19 @@
 
 <script>
     export default {
-        name: "BlogSingle"
+        name: "BlogSingle",
+		props: {
+			contentText: {
+				type: Object
+			}
+		},
+        async asyncData ({ $content }) {
+          const page = await $content('home').fetch()
+
+          return {
+            page
+          }
+        },
     }
 </script>
 

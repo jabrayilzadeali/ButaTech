@@ -1,8 +1,9 @@
 <template>
   <div>
-    <Nav />
+    <Nav current="Blog" />
     <PageHeader title="Blog Single" />
-    <BlogSingle />
+	<!-- {{ page }} -->
+    <BlogSingle :contentText="page" />
     <Footer />
   </div>
 </template>
@@ -16,7 +17,14 @@
       Footer,
       PageHeader,
       BlogSingle,
-      Nav
+      Nav,
+    },
+    async asyncData ({ $content }) {
+      const page = await $content('home').fetch()
+
+      return {
+        page
+      }
     },
     head(){
       return {

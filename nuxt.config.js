@@ -1,5 +1,6 @@
 
 export default {
+	target: 'static',
   mode: 'universal',
   /*
   ** Headers of the page
@@ -52,12 +53,17 @@ export default {
   ** Nuxt.js dev-modules
   */
   buildModules: [
+		"@nuxt/components"
   ],
   /*
   ** Nuxt.js modules
   */
   modules: [
+		'@nuxt/content'
   ],
+	content: [
+		// Option
+	],
   /*
   ** Build configuration
   */
