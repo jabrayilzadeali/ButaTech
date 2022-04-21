@@ -33,3 +33,11 @@
     }
   }
 </script>
+
+<style>
+
+	/* .nuxt-content h1{
+		font-size: 500px;
+	} */
+
+</style>
