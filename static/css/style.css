@@ -485,6 +485,31 @@ img {
 
 ***/
 
+.header-wave {
+	position: relative;
+}
+
+/* .wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(200% + 1.3px);
+    height: 130px;
+}
+
+.wave .shape-fill {
+    fill: #FFFFFF;
+} */
+
 .main-header {
   position: absolute;
   left: 0;
