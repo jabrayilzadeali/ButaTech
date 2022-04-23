@@ -4,7 +4,31 @@
 
       <div class="row clearfix">
         <!--News Block-->
-        <div class="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
+        <div v-for="article of articles" :key="article" class="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
+          <div class="inner-box">
+            <div class="image-box">
+              <!-- <nuxt-link to="/blog-single"><img src="/images/resource/news-1.jpg" alt=""></nuxt-link> -->
+              <nuxt-link to="/blog-single">
+				<img :src="require(`../static/images/custom/blogs/${article.slug}/thumbnail/${article.img}`)" alt="" />
+				<!-- <img :src="require(`~/images/resource/news-1.jpg`)" alt="" /> -->
+			  </nuxt-link>
+            </div>
+            <div class="lower-box">
+              <div class="post-meta">
+                <ul class="clearfix">
+                  <li><span class="far fa-clock"></span> 20 Mar</li>
+                  <li><span class="far fa-user-circle"></span> Admin</li>
+                  <li><span class="far fa-comments"></span> 2 Comments</li>
+                </ul>
+              </div>
+              <h5><nuxt-link :to="{ name: 'blogs-slug', params: { slug: article.slug }}">{{ article.title }}</nuxt-link></h5>
+              <div class="text">{{ article.title }}</div>
+              <div class="link-box"><nuxt-link class="theme-btn" to="/blog-single"><span class="flaticon-next-1"></span></nuxt-link></div>
+            </div>
+          </div>
+        </div>
+        <!--News Block-->
+        <!-- <div class="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
           <div class="inner-box">
             <div class="image-box">
               <nuxt-link to="/blog-single"><img src="/images/resource/news-1.jpg" alt=""></nuxt-link>
@@ -22,9 +46,9 @@
               <div class="link-box"><nuxt-link class="theme-btn" to="/blog-single"><span class="flaticon-next-1"></span></nuxt-link></div>
             </div>
           </div>
-        </div>
+        </div> -->
         <!--News Block-->
-        <div class="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 300ms; animation-name: fadeInUp;">
+        <!-- <div class="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 300ms; animation-name: fadeInUp;">
           <div class="inner-box">
             <div class="image-box">
               <nuxt-link to="/blog-single"><img src="/images/resource/news-2.jpg" alt=""></nuxt-link>
@@ -42,9 +66,9 @@
               <div class="link-box"><nuxt-link class="theme-btn" to="/blog-single"><span class="flaticon-next-1"></span></nuxt-link></div>
             </div>
           </div>
-        </div>
+        </div> -->
         <!--News Block-->
-        <div class="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 600ms; animation-name: fadeInUp;">
+        <!-- <div class="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 600ms; animation-name: fadeInUp;">
           <div class="inner-box">
             <div class="image-box">
               <nuxt-link to="/blog-single"><img src="/images/resource/news-3.jpg" alt=""></nuxt-link>
@@ -62,9 +86,9 @@
               <div class="link-box"><nuxt-link class="theme-btn" to="/blog-single"><span class="flaticon-next-1"></span></nuxt-link></div>
             </div>
           </div>
-        </div>
+        </div> -->
         <!--News Block-->
-        <div class="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
+        <!-- <div class="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
           <div class="inner-box">
             <div class="image-box">
               <nuxt-link to="/blog-single"><img src="/images/resource/news-4.jpg" alt=""></nuxt-link>
@@ -82,9 +106,9 @@
               <div class="link-box"><nuxt-link class="theme-btn" to="/blog-single.html"><span class="flaticon-next-1"></span></nuxt-link></div>
             </div>
           </div>
-        </div>
+        </div> -->
         <!--News Block-->
-        <div class="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 300ms; animation-name: fadeInUp;">
+        <!-- <div class="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 300ms; animation-name: fadeInUp;">
           <div class="inner-box">
             <div class="image-box">
               <nuxt-link to="/blog-single"><img src="/images/resource/news-5.jpg" alt=""></nuxt-link>
@@ -102,9 +126,9 @@
               <div class="link-box"><nuxt-link class="theme-btn" to="/blog-single.html"><span class="flaticon-next-1"></span></nuxt-link></div>
             </div>
           </div>
-        </div>
+        </div> -->
         <!--News Block-->
-        <div class="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 600ms; animation-name: fadeInUp;">
+        <!-- <div class="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 600ms; animation-name: fadeInUp;">
           <div class="inner-box">
             <div class="image-box">
               <nuxt-link to="/blog-single"><img src="/images/resource/news-6.jpg" alt=""></nuxt-link>
@@ -122,7 +146,7 @@
               <div class="link-box"><nuxt-link class="theme-btn" to="/blog-single"><span class="flaticon-next-1"></span></nuxt-link></div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
       <div class="more-box">
         <nuxt-link class="theme-btn btn-style-one" to="/blog">
@@ -136,10 +160,21 @@
 
 <script>
     export default {
-        name: "BlogPage"
+        name: "BlogPage",
+        props: {
+          articles: {
+            type: Array
+          }
+        }
     }
 </script>
 
-<style scoped>
-
+<style>
+	.image-box {
+		border-radius: 15px;
+		background-color: blue;
+		/* width: 370px;
+		height: 200px; */
+		object-fit: cover;
+	}
 </style>
