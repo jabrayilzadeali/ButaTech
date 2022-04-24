@@ -172,7 +172,7 @@
 <style>
 	.image-box {
 		border-radius: 15px;
-		background-color: blue;
+		/* background-color: blue; */
 		/* width: 370px;
 		height: 200px; */
 		object-fit: cover;
