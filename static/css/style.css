@@ -539,7 +539,8 @@ img {
 }
 
 .fixed-header .header-upper {
-  background: #292929;
+  background: rgb(215,215,233);
+  background: linear-gradient(90deg, rgba(215,215,233,0.7035189075630253) 0%, rgba(21,25,37,0.7231267507002801) 100%);
   -webkit-box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.08);
   -moz-box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.08);
   -ms-box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.08);
@@ -2094,10 +2095,10 @@ img.lazy-image.loaded {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
+  -moz-filter: grayscale(100%); */
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
