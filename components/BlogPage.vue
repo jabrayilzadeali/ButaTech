@@ -8,7 +8,7 @@
           <div class="inner-box">
             <div class="image-box">
               <!-- <nuxt-link to="/blog-single"><img src="/images/resource/news-1.jpg" alt=""></nuxt-link> -->
-              <nuxt-link to="/blog-single">
+              <nuxt-link :to="{ name: 'blogs-slug', params: { slug: article.slug }}">
 				<img :src="require(`../static/images/custom/blogs/${article.slug}/thumbnail/${article.img}`)" alt="" />
 				<!-- <img :src="require(`~/images/resource/news-1.jpg`)" alt="" /> -->
 			  </nuxt-link>
