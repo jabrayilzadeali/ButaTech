@@ -42,7 +42,7 @@
                     <li><nuxt-link to="/not-found">404 Page</nuxt-link></li>
                   </ul>
                 </li> -->
-                <li :class="`${current === 'Services' ? 'current' : ''} dropdown`"><nuxt-link to="/services">Services</nuxt-link>
+                <li :class="`${current === 'Service' ? 'current' : ''} dropdown`"><nuxt-link to="/service">Services</nuxt-link>
                   <ul>
                     <li><nuxt-link to="/services">All Services</nuxt-link></li>
                     <li><nuxt-link to="/web-development">Website Development</nuxt-link></li>

@@ -1,9 +1,8 @@
 <template>
   <div>
-    <Nav current="Services" />
+    <Nav current="Service" />
     <PageHeader title="Services" />
-    <ServicesPage />
-    <Services />
+    <ServicesPage :services="services" />
     <WeWorkSection />
     <CallToActionThree />
     <Footer />
@@ -12,7 +11,6 @@
 <script>
   import Nav from "../components/Nav";
   import PageHeader from "../components/PageHeader";
-  import Services from "../components/Services";
   import Footer from "../components/Footer";
   import ServicesPage from "../components/ServicesPage";
   import WeWorkSection from "../components/WeWorkSection";
@@ -23,10 +21,20 @@
       WeWorkSection,
       ServicesPage,
       Footer,
-      Services,
       PageHeader,
       Nav
     },
+	async asyncData({ $content, params }) {
+		const services = await $content('services', params.slug)
+		 	.only(['title', 'description', 'icon', 'slug'])
+			.sortBy('createdAt', 'asc')
+			.fetch();
+
+		console.log(services)
+		return {
+			services
+		}
+	},
     head(){
       return {
         title: "Linoor | Services"

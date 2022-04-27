@@ -11,6 +11,8 @@
             </div>
             <div class="text-content">
               <h3>Website Development</h3>
+			  {{ service.icon }}
+			  <nuxt-content :document="service" />
               <p>Need something changed or is there something not quite working the way you envisaged?
                 Is your van a little old and tired and need refreshing? Lorem Ipsum is simply dummy
                 text of the printing and typesetting industry. Lorem Ipsum has been the industry's
@@ -98,8 +100,14 @@
 
 <script>
     export default {
-        name: "ServiceDetails"
+        name: "ServiceDetails",
+		props: {
+			service: {
+				type: Object
+			}
+		}
     }
+
 </script>
 
 <style scoped>
