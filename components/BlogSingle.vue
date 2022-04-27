@@ -11,7 +11,11 @@
             <div class="post-details">
               <div class="inner-box">
                 <div class="image-box">
-                  <a href="/blog-single"><img src="/images/resource/news-7.jpg" alt=""></a>
+                  <!-- <a href="/blog-single"><img src="/images/resource/news-7.jpg" alt=""></a> -->
+                  <nuxt-link :to="{ name: 'blogs-slug', params: { slug: article.slug }}">
+                    <img :src="require(`../static/images/custom/blogs/${article.slug}/thumbnail/${article.img}`)" alt="" />
+                    <!-- <img :src="require(`~/images/resource/news-1.jpg`)" alt="" /> -->
+                  </nuxt-link>
                 </div>
                 <div class="lower-box">
                   <div class="post-meta">
@@ -21,29 +25,9 @@
                       <li><span class="far fa-comments"></span> 2 Comments</li>
                     </ul>
                   </div>
-                  <h4>{{ contentText.title }}</h4>
+                  <h4>{{ article.title }}</h4>
                   <div class="text">
-                    <nuxt-content :document="contentText" />
-                    <p>There are many variations of passages of Lorem Ipsum available, but the
-                      majority have suffered alteration in some form, by injected humour, or
-                      randomised words which don't look even slightly believable. If you are
-                      going to use a passage of Lorem Ipsum, you need to be sure there isn't
-                      anything embarrassing hidden in the middle of text. All the Lorem Ipsum
-                      generators on the Internet tend to repeat predefined chunks as
-                      necessary, making this the first true generator on the Internet. It uses
-                      a dictionary of over 200 Latin words, combined with a handful of model
-                      sentence structures, to generate Lorem Ipsum which looks reasonable. The
-                      generated Lorem Ipsum is therefore always free from repetition, injected
-                      humour, or non-characteristic words etc.</p>
-                    <p>It is a long established fact that a reader will be distracted by the
-                      readable content of a page when looking at its layout. The point of
-                      using Lorem Ipsum is that it has a more-or-less normal distribution of
-                      letters, as opposed to using 'Content here, content here', making it
-                      look like readable English. Many desktop publishing packages and web
-                      page editors now use Lorem Ipsum as their default model text, and a
-                      search for 'lorem ipsum' will uncover many web sites still in their
-                      infancy. Various versions have evolved over the years, sometimes by
-                      accident, sometimes on purpose injected humour and the like.</p>
+                    <nuxt-content :document="article" />
                   </div>
                 </div>
               </div>
@@ -281,17 +265,17 @@
     export default {
         name: "BlogSingle",
 		props: {
-			contentText: {
-				type: Object
+			article: {
+				type: Array
 			}
 		},
-        async asyncData ({ $content }) {
-          const page = await $content('home').fetch()
+        // async asyncData ({ $content }) {
+        //   const page = await $content('home').fetch()
 
-          return {
-            page
-          }
-        },
+        //   return {
+        //     page
+        //   }
+        // },
     }
 </script>
 

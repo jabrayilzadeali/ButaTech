@@ -9,6 +9,8 @@ img: 1.jpg
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus varius scelerisque odio, nec tempus diam sollicitudin ac. Pellentesque luctus rutrum odio at venenatis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas mattis id ante in faucibus. Praesent vestibulum quam id gravida semper. Suspendisse blandit purus luctus ex vestibulum lobortis. Fusce accumsan pretium dolor et iaculis. Vivamus nec enim ac sem consectetur tempus non pharetra arcu. Praesent vehicula lobortis nisi, nec egestas lacus ultricies id. Maecenas ut mollis nisi. Integer eget lectus magna. Sed fermentum turpis augue, eu porta nibh rutrum ac. Nulla non quam pretium, sagittis ex nec, cursus nisi.
 
+![car](/images/custom/blogs/fifth-blog/images/blog-1.jpg)
+
 ## this is h2
 
 Quisque at nisl consequat nisi blandit consequat sit amet et lectus. Vivamus pellentesque tincidunt nisi quis facilisis. Vivamus malesuada ipsum et sapien mattis luctus at non nisi. Vestibulum condimentum porttitor nulla, vitae vulputate leo rhoncus sit amet. Mauris a purus sit amet nibh porttitor vestibulum. Fusce lacus mi, elementum vitae massa vitae, tempor sodales neque. Quisque egestas dapibus mauris, in scelerisque nunc semper quis. Aenean elementum, diam sit amet sagittis aliquam, dui lorem consequat ligula, eu sollicitudin mi mi in nisi.

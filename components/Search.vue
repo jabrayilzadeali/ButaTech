@@ -4,7 +4,7 @@
 
     <ul v-if="articles.length">
       <li v-for="article of articles" :key="article.slug">
-		<nuxt-link class="search-results" :to="{ name: 'blogs-slug', params: { slug: article.slug }}">{{ article.title }}</nuxt-link>
+        <nuxt-link class="search-results" :to="{ name: 'blogs-slug', params: { slug: article.slug }}">{{ article.title }}</nuxt-link>
       </li>
     </ul>
   </div>

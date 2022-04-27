@@ -4,7 +4,7 @@
     <PageHeader title="Blog Posts" />
 	<Search />
 	<!-- {{ articles }} -->
-    <BlogPage :articles="articles"/>
+    <BlogPage :articles="articles" />
     <Footer />
   </div>
 </template>

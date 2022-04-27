@@ -35,7 +35,7 @@
              data-wow-duration="1500ms">
           <div class="inner-box">
             <div class="bottom-curve"></div>
-            <div class="icon-box"><span class="flaticon-digital-marketing"></span></div>
+            <div class="icon-box"><span class="flaticon-development"></span></div>
             <h6><nuxt-link to="/digital-marketing">Programming</nuxt-link></h6>
           </div>
         </div>
@@ -44,7 +44,7 @@
              data-wow-delay="300ms" data-wow-duration="1500ms">
           <div class="inner-box">
             <div class="bottom-curve"></div>
-            <div class="icon-box"><span class="flaticon-development"></span></div>
+            <div class="icon-box"><span class="fas fa-microchip"></span></div>
             <h6><nuxt-link to="/seo">pcb</nuxt-link></h6>
           </div>
         </div>
@@ -63,8 +63,8 @@
              data-wow-delay="900ms" data-wow-duration="1500ms">
           <div class="inner-box">
             <div class="bottom-curve"></div>
-            <div class="icon-box"><span class="flaticon-ui"></span></div>
-            <h6><nuxt-link to="/ui-designing">Printer</nuxt-link></h6>
+            <div class="icon-box"><span class="flaticon-3d"></span></div>
+            <h6><nuxt-link to="/ui-designing">3D Printer</nuxt-link></h6>
           </div>
         </div>
       </div>

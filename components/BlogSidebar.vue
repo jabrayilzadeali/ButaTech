@@ -6,6 +6,34 @@
         <!--Content Side-->
         <div class="content-side col-lg-8 col-md-12 col-sm-12">
           <div class="blog-posts">
+            <div v-for="article of articles" :key="article" class="news-block-two" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
+              <div class="inner-box">
+                <div class="image-box">
+                  <!-- <nuxt-link to="/blog-single"><img src="/images/resource/news-1.jpg" alt=""></nuxt-link> -->
+                  <nuxt-link :to="{ name: 'blogs-slug', params: { slug: article.slug }}">
+                    <img :src="require(`../static/images/custom/blogs/${article.slug}/thumbnail/${article.img}`)" alt="" />
+                    <!-- <img :src="require(`~/images/resource/news-1.jpg`)" alt="" /> -->
+                  </nuxt-link>
+                </div>
+                <div class="lower-box">
+                  <div class="post-meta">
+                    <ul class="clearfix">
+                      <li><span class="far fa-clock"></span> 20 Mar</li>
+                      <li><span class="far fa-user-circle"></span> Admin</li>
+                      <li><span class="far fa-comments"></span> 2 Comments</li>
+                    </ul>
+                  </div>
+                  <h5><nuxt-link :to="{ name: 'blogs-slug', params: { slug: article.slug }}"></nuxt-link></h5>
+                  <h4><nuxt-link :to="{ name: 'blogs-slug', params: { slug: article.slug }}">{{ article.title }}</nuxt-link> </h4>
+                  <div class="text">{{ article.description }}</div>
+                  <div class="link-box">
+                    <nuxt-link class="theme-btn" :to="{ name: 'blogs-slug', params: { slug: article.slug }}">
+                      Read More
+                    </nuxt-link>
+                  </div>
+                </div>
+              </div>
+            </div>
             <!--News Block-->
             <div class="news-block-two">
               <div class="inner-box">
@@ -20,8 +48,7 @@
                       <li><span class="far fa-comments"></span> 2 Comments</li>
                     </ul>
                   </div>
-                  <h4><nuxt-link to="/blog-single">basic rules of running web agency business</nuxt-link>
-                  </h4>
+                  <h4><nuxt-link to="/blog-single">basic rules of running web agency business</nuxt-link> </h4>
                   <div class="text">There are many variations of passages of Lorem Ipsum
                     available, but the majority have suffered alteration in some form, by
                     injected humour, or randomised words which don't look even slightly
@@ -120,7 +147,8 @@
               <div class="widget-inner">
                 <form method="post" action="#">
                   <div class="form-group">
-                    <input type="search" name="search-field" value="" placeholder="Search" required="">
+                    <!-- <input type="search" name="search-field" value="" placeholder="Search" required=""> -->
+                    <Search />
                     <button type="submit"><span class="icon flaticon-magnifying-glass-1"></span></button>
                   </div>
                 </form>
@@ -230,8 +258,18 @@
 </template>
 
 <script>
+	import Search from "../components/Search";
     export default {
       name: "BlogSidebar",
+      props: {
+        articles: {
+        type: Array
+        }
+      },
+      components: {
+        Search
+      },
+
       mounted() {
         new GLightbox({
           selector: '.glightbox5',

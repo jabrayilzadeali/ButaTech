@@ -21,6 +21,8 @@
             <div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
               <div class="bottom-curve"></div>
               <div class="icon-box"><span class="flaticon-vector"></span></div>
+
+
               <h5><a href="#">Modern <br>Designing</a></h5>
               <div class="text">Lorem ipsum is are many variations of pass of majority.</div>
               <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>

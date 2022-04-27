@@ -27,7 +27,7 @@
           <carousel :items="1">
         <!-- Slide Item -->
         <div class="slide-item">
-          <div class="image-layer" style="background-image: url(/images/main-slider/keyboard1.jpg);"></div>
+          <div class="image-layer" style="background-image: url(/images/main-slider/city1.jpg);"></div>
           <div class="left-top-line"></div>
           <div class="right-bottom-curve"></div>
           <div class="right-top-curve"></div>
@@ -51,7 +51,7 @@
 
         <!-- Slide Item -->
         <div class="slide-item">
-          <div class="image-layer" style="background-image: url(/images/main-slider/city1.jpg);"></div>
+          <div class="image-layer" style="background-image: url(/images/main-slider/keyboard1.jpg);"></div>
           <div class="left-top-line"></div>
           <div class="right-bottom-curve"></div>
           <div class="right-top-curve"></div>

@@ -2,7 +2,7 @@
   <div>
     <Nav current="Blog" />
     <PageHeader title="Blog Sidebar" />
-    <BlogSidebar />
+    <BlogSidebar :articles="articles" />
     <Footer />
   </div>
 </template>
@@ -18,6 +18,16 @@
       PageHeader,
       Nav
     },
+	async asyncData({ $content, params }) {
+		const articles = await $content('blogs', params.slug)
+		 	.only(['title', 'description', 'img', 'slug'])
+			.sortBy('createdAt', 'asc')
+			.fetch();
+
+		return {
+			articles
+		}
+	},
     head(){
       return {
         title: "Linoor | Blog Sidebar"
