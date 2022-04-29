@@ -64,6 +64,7 @@
 		const articles = await $content('blogs', params.slug)
 		 	.only(['title', 'description', 'img', 'slug'])
 			.sortBy('createdAt', 'asc')
+			.limit(3)
 			.fetch();
 
 		const products = await $content('products', params.slug)
