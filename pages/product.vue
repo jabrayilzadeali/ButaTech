@@ -1,8 +1,9 @@
 <template>
   <div>
     <Nav current="Product" />
-    <PageHeader title="Products" />
-    <GalleryPage />
+    <PageHeader title="Products" img="/images/custom/product/product.jpg" />
+	<!-- {{ products }} -->
+    <GalleryPage :products="products"/>
     <Footer />
   </div>
 </template>
@@ -18,6 +19,17 @@
       PageHeader,
       Nav
     },
+	async asyncData({ $content, params }) {
+		const products = await $content('products', params.slug)
+		 	.only(['title', 'description', 'tags', 'slug'])
+			.sortBy('createdAt', 'asc')
+			.fetch();
+
+		console.log(products)
+		return {
+			products
+		}
+	},
     head(){
       return {
         title: "Linoor | Products"

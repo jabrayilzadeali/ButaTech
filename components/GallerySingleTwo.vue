@@ -10,7 +10,8 @@
             <!-- Text COl -->
             <div class="text-col col-lg-8 col-md-12 col-sm-12">
               <div class="inner">
-                <h5>Fimlor Experience</h5>
+                <h5>{{ product.title }}</h5>
+				<nuxt-content :document="product" />
                 <p>Tincidunt elit magnis nulla facilisis sagittis sapien nunc amet ultrices dolores sit
                   ipsum velit purus aliquet massa fringilla leo orci. Sapien nunc amet ultrices,
                   dolores sit ipsum velit massa fringilla leo orci dolors sit amet elit amet. </p>
@@ -114,6 +115,11 @@
 <script>
   export default {
     name: "GallerySingleTwo",
+	props: {
+		product: {
+			type: Object
+		}
+	},
     mounted() {
       new GLightbox({
         selector: '.portfolio',

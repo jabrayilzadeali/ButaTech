@@ -1,7 +1,7 @@
 <template>
   <div>
     <Nav current="Blog" />
-    <PageHeader title="Blog Sidebar" />
+    <PageHeader title="Blog Sidebar" img="/images/custom/blogs/blog.jpg" />
     <BlogSidebar :articles="articles" />
     <Footer />
   </div>

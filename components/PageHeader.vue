@@ -1,6 +1,7 @@
 <template>
   <section class="page-banner">
-    <div class="image-layer" style="background-image:url(/images/background/image-7.jpg);"></div>
+    <!-- <div class="image-layer" style="background-image:url(/images/background/image-7.jpg);"></div> -->
+    <div class="image-layer" :style="img === undefined ? `background-image:url(/images/background/image-7.jpg);`:`background-image:url(${img});`"></div>
     <div class="shape-1"></div>
     <div class="shape-2"></div>
     <div class="banner-inner">
@@ -25,7 +26,10 @@
     props: {
       title: {
         type: String
-      }
+      },
+	  img: {
+		  type: String
+	  }
     }
 
   }

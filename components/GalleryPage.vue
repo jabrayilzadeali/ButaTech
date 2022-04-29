@@ -11,20 +11,22 @@
               <li class="filter" data-role="button" data-filter=".illustration">illustration<sup></sup></li>
               <li class="filter" data-role="button" data-filter=".photography">Photography<sup></sup></li>
               <li class="filter" data-role="button" data-filter=".web-design">Web Design<sup></sup></li>
+              <li class="filter" data-role="button" data-filter=".first">First<sup></sup></li>
+              <li class="filter" data-role="button" data-filter=".second">Second<sup></sup></li>
             </ul>
         </div>
         <div class="filter-list row">
           <!-- Gallery Item -->
-          <div class="gallery-item mix all web-design col-lg-4 col-md-6 col-sm-12">
+          <div v-for="product of products" :key="product" :class="`gallery-item mix ${ product.tags } col-lg-4 col-md-6 col-sm-12`">
             <div class="inner-box">
               <figure class="image"><img src="/images/gallery/1.jpg" alt=""></figure>
               <a href="/images/gallery/1.jpg" class="lightbox-image overlay-box"
                  data-fancybox="gallery"></a>
               <div class="cap-box">
                 <div class="cap-inner">
-                  <div class="cat"><span>Graphic</span></div>
+                  <div class="cat"><span>{{ product.tags }}</span></div>
                   <div class="title">
-                    <h5><nuxt-link to="/portfolio-single">Fimlor Experience</nuxt-link></h5>
+                    <h5><nuxt-link :to="{ name: 'products-slug', params: { slug: product.slug }}">{{ product.title }}</nuxt-link></h5>
                   </div>
                 </div>
               </div>
@@ -39,7 +41,7 @@
                  data-fancybox="gallery"></a>
               <div class="cap-box">
                 <div class="cap-inner">
-                  <div class="cat"><span>Graphic</span></div>
+                  <div class="cat"><span>all photography web-design</span></div>
                   <div class="title">
                     <h5><nuxt-link to="/portfolio-single">Fimlor Experience</nuxt-link></h5>
                   </div>
@@ -56,7 +58,7 @@
                  data-fancybox="gallery"></a>
               <div class="cap-box">
                 <div class="cap-inner">
-                  <div class="cat"><span>Graphic</span></div>
+                  <div class="cat"><span>all branding web-design</span></div>
                   <div class="title">
                     <h5><nuxt-link to="/portfolio-single">Fimlor Experience</nuxt-link></h5>
                   </div>
@@ -73,7 +75,7 @@
                  data-fancybox="gallery"></a>
               <div class="cap-box">
                 <div class="cap-inner">
-                  <div class="cat"><span>Graphic</span></div>
+                  <div class="cat"><span>all branding illustration</span></div>
                   <div class="title">
                     <h5><nuxt-link to="/portfolio-single">Fimlor Experience</nuxt-link></h5>
                   </div>
@@ -91,7 +93,7 @@
                  data-fancybox="gallery"></a>
               <div class="cap-box">
                 <div class="cap-inner">
-                  <div class="cat"><span>Graphic</span></div>
+                  <div class="cat"><span>branding illustration photography</span></div>
                   <div class="title">
                     <h5><nuxt-link to="/portfolio-single">Fimlor Experience</nuxt-link></h5>
                   </div>
@@ -108,7 +110,7 @@
                  data-fancybox="gallery"></a>
               <div class="cap-box">
                 <div class="cap-inner">
-                  <div class="cat"><span>Graphic</span></div>
+                  <div class="cat"><span>all illustration photography </span></div>
                   <div class="title">
                     <h5><nuxt-link to="/portfolio-single">Fimlor Experience</nuxt-link></h5>
                   </div>
@@ -133,6 +135,11 @@
         mixer: null
       }
     },
+	props: {
+		products: {
+			type: Array
+		}
+	},
     mounted () {
       const containerEl = document.querySelector('.filter-list')
       this.mixer = new this.mixitup(containerEl, {

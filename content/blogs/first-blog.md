@@ -13,6 +13,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus varius sceler
 
 ## this is h2
 
+```js{1,3-5}[server.js]
+const http = require('http')
+const bodyParser = require('body-parser')
+
+http.createServer((req, res) => {
+  bodyParser.parse(req, (error, body) => {
+    res.end(body)
+  })
+}).listen(3000)
+```
+
 Quisque at nisl consequat nisi blandit consequat sit amet et lectus. Vivamus pellentesque tincidunt nisi quis facilisis. Vivamus malesuada ipsum et sapien mattis luctus at non nisi. Vestibulum condimentum porttitor nulla, vitae vulputate leo rhoncus sit amet. Mauris a purus sit amet nibh porttitor vestibulum. Fusce lacus mi, elementum vitae massa vitae, tempor sodales neque. Quisque egestas dapibus mauris, in scelerisque nunc semper quis. Aenean elementum, diam sit amet sagittis aliquam, dui lorem consequat ligula, eu sollicitudin mi mi in nisi.
 
 ### the h3

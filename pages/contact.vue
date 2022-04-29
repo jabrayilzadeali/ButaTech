@@ -1,7 +1,7 @@
 <template>
   <div>
     <Nav current="Contact" />
-    <PageHeader title="Contact" />
+    <PageHeader title="Contact" img="/images/custom/contact/contact.jpg" />
     <FaqSection />
     <ContactPage />
     <Footer />

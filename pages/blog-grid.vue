@@ -1,7 +1,7 @@
 <template>
   <div>
     <Nav current="Blog"/>
-    <PageHeader title="Blog Posts" />
+    <PageHeader title="Blog Posts" img="/images/custom/blogs/blog.jpg" />
 	<Search />
 	<!-- {{ articles }} -->
     <BlogPage :articles="articles" />
