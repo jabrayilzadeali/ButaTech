@@ -63,8 +63,8 @@
              data-wow-delay="900ms" data-wow-duration="1500ms">
           <div class="inner-box">
             <div class="bottom-curve"></div>
-            <div class="icon-box"><span class="flaticon-3d"></span></div>
-            <h6><nuxt-link to="/ui-designing">3D Printer</nuxt-link></h6>
+            <div class="icon-box"><span class="flaticon-success"></span></div>
+            <h6><nuxt-link to="/ui-designing">All Services</nuxt-link></h6>
           </div>
         </div>
       </div>

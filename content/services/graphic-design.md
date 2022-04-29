@@ -2,7 +2,7 @@
 title: Graphic Design
 description: graphic design service description
 slug: graphic-design
-icon: flaticon-digital
+icon: flaticon-computer
 ---
 
 # The Graphic-design

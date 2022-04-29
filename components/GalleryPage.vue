@@ -19,9 +19,9 @@
           <!-- Gallery Item -->
           <div v-for="product of products" :key="product" :class="`gallery-item mix ${ product.tags } col-lg-4 col-md-6 col-sm-12`">
             <div class="inner-box">
-              <figure class="image"><img src="/images/gallery/1.jpg" alt=""></figure>
-              <a href="/images/gallery/1.jpg" class="lightbox-image overlay-box"
-                 data-fancybox="gallery"></a>
+			<nuxt-link :to="{ name: 'products-slug', params: { slug: product.slug }}">
+              <img :src="require(`../static/images/gallery/2.jpg`)" alt="">
+			</nuxt-link>
               <div class="cap-box">
                 <div class="cap-inner">
                   <div class="cat"><span>{{ product.tags }}</span></div>
