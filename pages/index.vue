@@ -6,14 +6,14 @@
     <!-- <ServicesTwo /> -->
     <Services />
     <FeaturedSection />
-    <GalleryCarousel />
+    <GalleryCarousel :products="products" />
     <WhyUsSection />
     <Testimonial />
     <!-- <Features /> -->
     <QuoteSection/>
     <BrandsSection />
     <FunFacts />
-    <BlogSection />
+    <BlogSection :articles="articles" />
     <!-- <FluidSection /> -->
     <CallToAction />
     <Footer />
@@ -59,9 +59,26 @@
       Footer,
       Nav
     },
+	async asyncData({ $content, params }) {
+
+		const articles = await $content('blogs', params.slug)
+		 	.only(['title', 'description', 'img', 'slug'])
+			.sortBy('createdAt', 'asc')
+			.fetch();
+
+		const products = await $content('products', params.slug)
+		 	.only(['title', 'description', 'tags', 'slug'])
+			.sortBy('createdAt', 'asc')
+			.fetch();
+
+		console.log(products, articles)
+		return {
+			products, articles
+		}
+	},
     head(){
       return {
-        title: "Linoor | Home 2"
+        title: "ButaTech | Home"
       }
     }
   }

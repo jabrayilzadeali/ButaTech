@@ -7,11 +7,14 @@
 
       <div class="row clearfix">
         <!--News Block-->
-        <div class="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0ms"
+        <div v-for="article of articles" :key="article" class="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0ms"
              data-wow-duration="1500ms">
           <div class="inner-box">
             <div class="image-box">
-              <a href="#"><img src="/images/resource/news-1.jpg" alt=""></a>
+              <!-- <a href="#"><img src="/images/resource/news-1.jpg" alt=""></a> -->
+              <nuxt-link :to="{ name: 'blogs-slug', params: { slug: article.slug }}">
+                <img :src="require(`../static/images/custom/blogs/${article.slug}/thumbnail/${article.img}`)" alt="" />
+              </nuxt-link>
             </div>
             <div class="lower-box">
               <div class="post-meta">
@@ -21,10 +24,14 @@
                   <li><span class="far fa-comments"></span> 2 Comments</li>
                 </ul>
               </div>
-              <h5><nuxt-link to="/blog-single">basic rules of running web agency business</nuxt-link></h5>
+              <!-- <h5><nuxt-link to="/blog-single">{{ article.title }}</nuxt-link></h5> -->
+              <h5><nuxt-link :to="{ name: 'blogs-slug', params: { slug: article.slug }}">{{ article.title }}</nuxt-link></h5>
               <div class="text">Lorem ipsum is simply free text used by copytyping refreshing.</div>
-              <div class="link-box"><a class="theme-btn" href="#"><span
-                class="flaticon-next-1"></span></a></div>
+              <div class="link-box">
+                <nuxt-link class="theme-btn" :to="{ name: 'blogs-slug', params: { slug: article.slug }}">
+                  <span class="flaticon-next-1"></span>
+                </nuxt-link>
+              </div>
             </div>
           </div>
         </div>
@@ -79,7 +86,12 @@
 
 <script>
     export default {
-        name: "BlogSection"
+        name: "BlogSection",
+		props: {
+			articles: {
+				type: Array
+			}
+		}
     }
 </script>
 

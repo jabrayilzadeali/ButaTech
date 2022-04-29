@@ -16,16 +16,19 @@
             <carousel :margin="30" :autoplay="true" :responsive="{0: {items: 1},640: {items: 2},992: {items: 3},1200: {items: 4},1500: {items: 4}}">
 
             <!-- Gallery Item -->
-            <div class="gallery-item">
+            <div v-for="product of products" :key="product" class="gallery-item">
               <div class="inner-box">
-                <figure class="image"><img src="/images/gallery/8.jpg" alt=""></figure>
-                <a href="/images/gallery/8.jpg" class="lightbox-image overlay-box"
-                   data-fancybox="gallery"></a>
+                <nuxt-link :to="{ name: 'products-slug', params: { slug: product.slug }}">
+                  <img :src="require(`../static/images/gallery/8.jpg`)" alt="">
+                </nuxt-link>
+                <!-- <figure class="image"><img src="/images/gallery/8.jpg" alt=""></figure> -->
+                <!-- <a href="/images/gallery/8.jpg" class="lightbox-image overlay-box"
+                   data-fancybox="gallery"></a> -->
                 <div class="cap-box">
                   <div class="cap-inner">
-                    <div class="cat"><span>Graphic</span></div>
+                    <div class="cat"><span>{{ product.tags }}</span></div>
                     <div class="title">
-                      <h5><a href="/portfolio-single">Fimlor Experience</a></h5>
+                      <h5><nuxt-link :to="{ name: 'products-slug', params: { slug: product.slug }}">{{ product.title }}</nuxt-link></h5>
                     </div>
                   </div>
                 </div>
@@ -215,6 +218,11 @@
 <script>
     export default {
       name: "GalleryCarousel",
+	  props: {
+		  products: {
+			  type: Array
+		  }
+	  },
       mounted () {
         new GLightbox({
           selector: '.lightbox-image',

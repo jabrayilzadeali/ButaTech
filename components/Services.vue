@@ -18,7 +18,7 @@
           <div class="inner-box">
             <div class="bottom-curve"></div>
             <div class="icon-box"><span class="flaticon-responsive"></span></div>
-            <h6><nuxt-link to="/web-development">Website <br>Development</nuxt-link></h6>
+            <h6><nuxt-link to="/services/website-development">Website <br>Development</nuxt-link></h6>
           </div>
         </div>
         <!--Service Block-->
@@ -27,7 +27,7 @@
           <div class="inner-box">
             <div class="bottom-curve"></div>
             <div class="icon-box"><span class="flaticon-computer"></span></div>
-            <h6><nuxt-link to="/graphic-designing">graphic <br>designing</nuxt-link></h6>
+            <h6><nuxt-link to="/services/graphic-design">graphic <br>designing</nuxt-link></h6>
           </div>
         </div>
         <!--Service Block-->
@@ -36,7 +36,7 @@
           <div class="inner-box">
             <div class="bottom-curve"></div>
             <div class="icon-box"><span class="flaticon-development"></span></div>
-            <h6><nuxt-link to="/digital-marketing">Programming</nuxt-link></h6>
+            <h6><nuxt-link to="/services/programming">Programming</nuxt-link></h6>
           </div>
         </div>
         <!--Service Block-->
@@ -45,7 +45,7 @@
           <div class="inner-box">
             <div class="bottom-curve"></div>
             <div class="icon-box"><span class="fas fa-microchip"></span></div>
-            <h6><nuxt-link to="/seo">pcb</nuxt-link></h6>
+            <h6><nuxt-link to="/services/pcb">pcb</nuxt-link></h6>
           </div>
         </div>
         <!--Service Block-->
@@ -55,7 +55,7 @@
           <div class="inner-box">
             <div class="bottom-curve"></div>
             <div class="icon-box"><span class="flaticon-app-development"></span></div>
-            <h6><nuxt-link to="/app-development">IT</nuxt-link></h6>
+            <h6><nuxt-link to="/it">IT</nuxt-link></h6>
           </div>
         </div>
         <!--Service Block-->
@@ -64,7 +64,7 @@
           <div class="inner-box">
             <div class="bottom-curve"></div>
             <div class="icon-box"><span class="flaticon-success"></span></div>
-            <h6><nuxt-link to="/ui-designing">All Services</nuxt-link></h6>
+            <h6><nuxt-link to="/service">All Services</nuxt-link></h6>
           </div>
         </div>
       </div>

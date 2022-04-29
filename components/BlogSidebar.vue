@@ -12,7 +12,6 @@
                   <!-- <nuxt-link to="/blog-single"><img src="/images/resource/news-1.jpg" alt=""></nuxt-link> -->
                   <nuxt-link :to="{ name: 'blogs-slug', params: { slug: article.slug }}">
                     <img :src="require(`../static/images/custom/blogs/${article.slug}/thumbnail/${article.img}`)" alt="" />
-                    <!-- <img :src="require(`~/images/resource/news-1.jpg`)" alt="" /> -->
                   </nuxt-link>
                 </div>
                 <div class="lower-box">
@@ -23,7 +22,6 @@
                       <li><span class="far fa-comments"></span> 2 Comments</li>
                     </ul>
                   </div>
-                  <h5><nuxt-link :to="{ name: 'blogs-slug', params: { slug: article.slug }}"></nuxt-link></h5>
                   <h4><nuxt-link :to="{ name: 'blogs-slug', params: { slug: article.slug }}">{{ article.title }}</nuxt-link> </h4>
                   <div class="text">{{ article.description }}</div>
                   <div class="link-box">
