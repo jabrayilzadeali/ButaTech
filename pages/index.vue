@@ -13,7 +13,7 @@
     <QuoteSection/>
     <BrandsSection />
     <FunFacts />
-    <BlogSection :articles="articles" />
+    <!-- <BlogSection :articles="articles" /> -->
     <!-- <FluidSection /> -->
     <CallToAction />
     <Footer />
@@ -36,14 +36,14 @@
 //   import Features from "../components/Features";
   import QuoteSection from "../components/QuoteSection";
   import BrandsSection from "../components/BrandsSection";
-  import BlogSection from "../components/BlogSection";
+//   import BlogSection from "../components/BlogSection";
 //   import FluidSection from "../components/FluidSection";
   import CallToAction from "../components/CallToAction";
   export default {
     components: {
     //   FluidSection,
 	  CallToAction,
-      BlogSection,
+    //   BlogSection,
       BrandsSection,
       QuoteSection,
     //   Features,
@@ -61,20 +61,19 @@
     },
 	async asyncData({ $content, params }) {
 
-		const articles = await $content('blogs', params.slug)
-		 	.only(['title', 'description', 'img', 'slug'])
-			.sortBy('createdAt', 'asc')
-			.limit(3)
-			.fetch();
+		// const articles = await $content('blogs', params.slug)
+		//  	.only(['title', 'description', 'img', 'slug'])
+		// 	.sortBy('createdAt', 'asc')
+		// 	.limit(3)
+		// 	.fetch();
 
 		const products = await $content('products', params.slug)
 		 	.only(['title', 'description', 'tags', 'slug'])
 			.sortBy('createdAt', 'asc')
 			.fetch();
 
-		console.log(products, articles)
 		return {
-			products, articles
+			products
 		}
 	},
     head(){
