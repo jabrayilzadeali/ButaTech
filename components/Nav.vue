@@ -27,11 +27,11 @@
             <div class="collapse navbar-collapse show clearfix">
               <ul class="navigation clearfix">
                 <li :class="`${current === 'Home' ? 'current' : ''} dropdown`"><a href="/">Home</a>
-                  <ul>
+                  <!-- <ul>
                     <li><nuxt-link to="/">Home Style 01</nuxt-link></li>
                     <li><nuxt-link to="/index-2">Home Style 02</nuxt-link></li>
                     <li><nuxt-link to="/index-3">Home Style 03</nuxt-link></li>
-                  </ul>
+                  </ul> -->
                 </li>
                 <li :class="`${current === 'About' ? 'current' : ''}`"><nuxt-link to="/about">About Us</nuxt-link></li>
                 <!-- <li class="dropdown"><a href="/team">Pages</a>
@@ -43,7 +43,7 @@
                   </ul>
                 </li> -->
                 <li :class="`${current === 'Service' ? 'current' : ''} dropdown`"><nuxt-link to="/service">Services</nuxt-link>
-                  <ul>
+                  <!-- <ul>
                     <li><nuxt-link to="/services">All Services</nuxt-link></li>
                     <li><nuxt-link to="/web-development">Website Development</nuxt-link></li>
                     <li><nuxt-link to="/graphic-designing">Graphic Designing</nuxt-link></li>
@@ -51,21 +51,17 @@
                     <li><nuxt-link to="/seo">SEO & Content Writting</nuxt-link></li>
                     <li><nuxt-link to="/app-development">App Development</nuxt-link></li>
                     <li><nuxt-link to="/ui-designing">UI/UX Designing</nuxt-link></li>
-                  </ul>
+                  </ul> -->
                 </li>
-                <li class="dropdown"><nuxt-link to="/product">Product</nuxt-link>
-                  <ul>
+                <li :class="`${current === 'Product' ? 'current' : ''} dropdown`"><nuxt-link to="/product">Product</nuxt-link>
+                  <!-- <ul>
                     <li><nuxt-link to="/product">Product</nuxt-link></li>
                     <li><nuxt-link to="/product-single">Product Single 01</nuxt-link></li>
                     <li><nuxt-link to="/product-single-2">Product Single 02</nuxt-link></li>
-                  </ul>
+                  </ul> -->
                 </li>
-                <li :class="`${current === 'Blog' ? 'current' : ''} dropdown`"><nuxt-link to="/blog-grid">Blog</nuxt-link>
-                  <ul>
-                    <li><nuxt-link to="/blog">Blog Sidebar</nuxt-link></li>
-                    <li><nuxt-link to="/blog-grid">Blog Grid View</nuxt-link></li>
-                    <li><nuxt-link to="/blog-single">Blog Single</nuxt-link></li>
-                  </ul>
+                <li :class="`${current === 'Blog' ? 'current' : ''} dropdown`">
+					<nuxt-link to="/blog">Blog</nuxt-link>
                 </li>
                 <li :class="`${current === 'Contact' ? 'current' : ''} dropdown`"><nuxt-link to="/contact">Contact</nuxt-link></li>
               </ul>
@@ -96,14 +92,14 @@
 
       <div :class="`collapse navbar-collapse ${mobileToggle ? 'show' : ''} clearfix`">
         <ul class="navigation clearfix">
-          <li class="current dropdown"><a href="#">Home<div class="dropdown-btn"><span class="fa fa-angle-right"></span></div></a>
-            <ul class="sub-menu">
+          <li :class="`${current === 'Home' ? 'current' : ''}`"><a href="/">Home<div ></div></a>
+            <!-- <ul class="sub-menu">
               <li><nuxt-link to="/">Home Style 01</nuxt-link></li>
               <li><nuxt-link to="/index-2">Home Style 02</nuxt-link></li>
               <li><nuxt-link to="/index-3">Home Style 03</nuxt-link></li>
-            </ul>
+            </ul> -->
           </li>
-          <li><nuxt-link to="/about">About Us</nuxt-link></li>
+          <li :class="`${current === 'About' ? 'current' : ''}`"><nuxt-link to="/about">About Us</nuxt-link></li>
           <!-- <li class="dropdown"><a href="#">Pages<div class="dropdown-btn"><span class="fa fa-angle-right"></span></div></a>
             <ul class="sub-menu">
               <li><nuxt-link to="/team">Our Team</nuxt-link></li>
@@ -112,8 +108,8 @@
               <li><nuxt-link to="/not-found">404 Page</nuxt-link></li>
             </ul>
           </li> -->
-          <li class="dropdown"><nuxt-link to="#">Services<div class="dropdown-btn"><span class="fa fa-angle-right"></span></div></nuxt-link>
-            <ul class="sub-menu">
+          <li :class="`${current === 'Service' ? 'current' : ''}`"><nuxt-link to="/service">Services<div class="dropdown-btn"></div></nuxt-link>
+            <!-- <ul class="sub-menu">
               <li><nuxt-link to="/services">All Services</nuxt-link></li>
               <li><nuxt-link to="/web-development">Website Development</nuxt-link></li>
               <li><nuxt-link to="/graphic-designing">Graphic Designing</nuxt-link></li>
@@ -121,23 +117,23 @@
               <li><nuxt-link to="/seo">SEO & Content Writting</nuxt-link></li>
               <li><nuxt-link to="/app-development">App Development</nuxt-link></li>
               <li><nuxt-link to="/ui-designing">UI/UX Designing</nuxt-link></li>
-            </ul>
+            </ul> -->
           </li>
-          <li class="dropdown"><nuxt-link to="#">Product<div class="dropdown-btn"><span class="fa fa-angle-right"></span></div></nuxt-link>
-            <ul class="sub-menu">
+          <li :class="`${current === 'Product' ? 'current' : ''}`"><nuxt-link to="/product">Product<div class="dropdown-btn"></div></nuxt-link>
+            <!-- <ul class="sub-menu">
               <li><nuxt-link to="/product">Product</nuxt-link></li>
               <li><nuxt-link to="/product-single">Product Single 01</nuxt-link></li>
               <li><nuxt-link to="/product-single-2">Product Single 02</nuxt-link></li>
-            </ul>
+            </ul> -->
           </li>
-          <li class="dropdown"><nuxt-link to="#">Blog<div class="dropdown-btn"><span class="fa fa-angle-right"></span></div></nuxt-link>
-            <ul class="sub-menu">
+          <li :class="`${current === 'Blog' ? 'current' : ''}`"><nuxt-link to="/blog">Blog<div class="dropdown-btn"></div></nuxt-link>
+            <!-- <ul class="sub-menu">
               <li><nuxt-link to="/blog">Blog Sidebar</nuxt-link></li>
               <li><nuxt-link to="/blog-grid">Blog Grid View</nuxt-link></li>
               <li><nuxt-link to="/blog-single">Blog Single</nuxt-link></li>
-            </ul>
+            </ul> -->
           </li>
-          <li><nuxt-link to="/contact">Contact</nuxt-link></li>
+          <li :class="`${current === 'Contact' ? 'current' : ''}`"><nuxt-link to="/contact">Contact</nuxt-link></li>
         </ul>
       </div>
 	
