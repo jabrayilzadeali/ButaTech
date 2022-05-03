@@ -175,9 +175,9 @@
     },
     methods: {
       handleScroll() {
-        if (window.scrollY > 70) {
+        if (window.scrollY > 270) {
           this.sticky = true
-        } else if (window.scrollY < 70) {
+        } else if (window.scrollY < 270) {
           this.sticky = false
         }
       },
