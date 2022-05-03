@@ -227,9 +227,9 @@
                 </svg>
 
               </div>
-              <h5><a href="#">Laser</a></h5>
+              <h5><a href="services/laser">Laser</a></h5>
               <div class="text">Lorem ipsum is are many variations of pass of majority.</div>
-              <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
+              <div class="link-box"><a href="services/laser"><span class="fa fa-angle-right"></span></a></div>
             </div>
           </div>
 
@@ -423,9 +423,9 @@
 
 
               </div>
-              <h5><a href="#">CNC</a></h5>
+              <h5><a href="services/cnc">CNC</a></h5>
               <div class="text">Lorem ipsum is are many variations of pass of majority.</div>
-              <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
+              <div class="link-box"><a href="services/cnc"><span class="fa fa-angle-right"></span></a></div>
             </div>
           </div>
 
@@ -648,9 +648,9 @@
 
                   
               </div>
-              <h5><a href="#">Pcb</a></h5>
+              <h5><a href="services/pcb">Pcb</a></h5>
               <div class="text">Lorem ipsum is are many variations of pass of majority.</div>
-              <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
+              <div class="link-box"><a href="services/pcb"><span class="fa fa-angle-right"></span></a></div>
             </div>
           </div>
 

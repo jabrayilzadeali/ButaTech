@@ -5,7 +5,7 @@ slug: pcb
 icon: fas fa-microchip
 ---
 
-# The Programming
+# The Pcb
 ## Cool
 ### Okay
 
