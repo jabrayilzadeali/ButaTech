@@ -12,7 +12,7 @@
     <!-- <Features /> -->
     <QuoteSection/>
     <BrandsSection />
-    <FunFacts />
+    <!-- <FunFacts /> -->
     <!-- <BlogSection :articles="articles" /> -->
     <!-- <FluidSection /> -->
     <CallToAction />
@@ -26,7 +26,7 @@
   import Footer from "../components/Footer";
 //   import BannerTwo from "../components/BannerTwo";
   import Banner from "../components/Banner";
-  import FunFacts from "../components/FunFacts";
+//   import FunFacts from "../components/FunFacts";
 //   import ServicesTwo from "../components/ServicesTwo";
   import Services from "../components/Services";
   import FeaturedSection from "../components/FeaturedSection";
@@ -53,7 +53,7 @@
       FeaturedSection,
     //   ServicesTwo,
       Services,
-      FunFacts,
+    //   FunFacts,
     //   BannerTwo,
 	  Banner,
       Footer,
