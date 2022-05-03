@@ -3,7 +3,7 @@
     <Nav current="Service" />
     <PageHeader title="Services" img="images/custom/service/service.jpg" />
     <ServicesPage :services="services" />
-    <WeWorkSection />
+    <!-- <WeWorkSection /> -->
     <CallToActionThree />
     <Footer />
   </div>
@@ -13,12 +13,12 @@
   import PageHeader from "../components/PageHeader";
   import Footer from "../components/Footer";
   import ServicesPage from "../components/ServicesPage";
-  import WeWorkSection from "../components/WeWorkSection";
+//   import WeWorkSection from "../components/WeWorkSection";
   import CallToActionThree from "../components/CallToActionThree";
   export default {
     components: {
       CallToActionThree,
-      WeWorkSection,
+    //   WeWorkSection,
       ServicesPage,
       Footer,
       PageHeader,
