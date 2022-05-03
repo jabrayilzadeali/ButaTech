@@ -33,19 +33,16 @@
                 <div class="row clearfix">
                   <div class="col-md-6 col-sm-12">
                     <ul>
-                      <li><a href="#">About</a></li>
-                      <li><a href="#">Meet Our Team</a></li>
-                      <li><a href="#">Our Portfolio</a></li>
-                      <li><a href="#">Latest News</a></li>
-                      <li><a href="#">Contact</a></li>
+                      <li><a href="/">Home</a></li>
+                      <li><a href="/about">About</a></li>
+                      <li><a href="services">Services</a></li>
                     </ul>
                   </div>
                   <div class="col-md-6 col-sm-12">
                     <ul>
-                      <li><a href="#">Support</a></li>
-                      <li><a href="#">Privacy Policy</a></li>
-                      <li><a href="#">Terms of Use</a></li>
-                      <li><a href="#">Help</a></li>
+                      <li><a href="product">Product</a></li>
+                      <li><a href="blog">Blog</a></li>
+                      <li><a href="contact">Contact</a></li>
                     </ul>
                   </div>
                 </div>
@@ -59,8 +56,6 @@
               <div class="widget-content">
                 <h6>Contact</h6>
                 <ul class="contact-info">
-                  <li class="address"><span class="icon flaticon-pin-1"></span> 66 Broklyn Street,
-                    New York <br>United States of America</li>
                   <li><span class="icon flaticon-call"></span><a href="tel:666888000">666 888
                     000</a></li>
                   <li><span class="icon flaticon-email-2"></span><a
