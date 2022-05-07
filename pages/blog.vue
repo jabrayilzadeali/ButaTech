@@ -1,8 +1,8 @@
 <template>
   <div>
     <Nav current="Blog" />
-    <PageHeader title="Blog Sidebar" img="/images/custom/blogs/blog.jpg" />
-    <BlogSidebar :articles="articles" />
+    <PageHeader title="Tezliklə gələcək" img="/images/custom/blogs/blog.jpg" />
+    <!-- <BlogSidebar :articles="articles" /> -->
     <Footer />
   </div>
 </template>

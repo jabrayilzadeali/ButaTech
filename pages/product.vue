@@ -1,7 +1,7 @@
 <template>
   <div>
     <Nav current="Product" />
-    <PageHeader title="Products" img="/images/custom/product/product.jpg" />
+    <PageHeader title="Məhsullar" img="/images/custom/product/product.jpg" />
 	<!-- {{ products }} -->
     <GalleryPage :products="products"/>
     <Footer />
@@ -32,7 +32,7 @@
 	},
     head(){
       return {
-        title: "Linoor | Products"
+        title: "Linoor | Məhsullar"
       }
     }
   }

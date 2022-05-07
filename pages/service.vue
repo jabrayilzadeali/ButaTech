@@ -1,7 +1,7 @@
 <template>
   <div>
     <Nav current="Service" />
-    <PageHeader title="Services" img="images/custom/service/service.jpg" />
+    <PageHeader title="Servislər" img="images/custom/service/service.jpg" />
     <ServicesPage :services="services" />
     <!-- <WeWorkSection /> -->
     <CallToActionThree />
@@ -37,7 +37,7 @@
 	},
     head(){
       return {
-        title: "Linoor | Services"
+        title: "Linoor | Servislər"
       }
     }
   }

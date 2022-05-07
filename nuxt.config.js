@@ -13,8 +13,10 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
+
       { rel: 'icon', type: 'image/x-icon', href: '/images/logo.png' },
-      { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap" },
+			{ rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600;700&family=Inter:wght@400;700&family=Lexend+Deca&family=Overpass:wght@400;700&family=Poppins:wght@300;400;500;600&family=Red+Hat+Display:wght@500;700;900&display=swap" },
+      // { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap" },
       { rel: "stylesheet", href: "/css/bootstrap.css" },
       { rel: "stylesheet", href: "/css/animate.css" },
       { rel: "stylesheet", href: "/css/fontawesome-all.css" },
@@ -53,7 +55,7 @@ export default {
   ** Nuxt.js dev-modules
   */
   buildModules: [
-		"@nuxt/components"
+		"@nuxt/components",
   ],
   /*
   ** Nuxt.js modules

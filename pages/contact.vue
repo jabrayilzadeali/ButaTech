@@ -1,7 +1,7 @@
 <template>
   <div>
     <Nav current="Contact" />
-    <PageHeader title="Contact" img="/images/custom/contact/contact.jpg" />
+    <PageHeader title="Əlaqə" img="/images/custom/contact/contact.jpg" />
     <FaqSection />
     <ContactPage />
     <Footer />
@@ -23,7 +23,7 @@
     },
     head(){
       return {
-        title: "Linoor | Contact Us"
+        title: "Linoor | Əlaqə"
       }
     }
   }

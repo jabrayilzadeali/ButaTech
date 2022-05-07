@@ -26,14 +26,14 @@
           <nav class="main-menu navbar-expand-md navbar-light">
             <div class="collapse navbar-collapse show clearfix">
               <ul class="navigation clearfix">
-                <li :class="`${current === 'Home' ? 'current' : ''} dropdown`"><a href="/">Home</a>
+                <li :class="`${current === 'Home' ? 'current' : ''} dropdown`"><a href="/">Ev</a>
                   <!-- <ul>
                     <li><nuxt-link to="/">Home Style 01</nuxt-link></li>
                     <li><nuxt-link to="/index-2">Home Style 02</nuxt-link></li>
                     <li><nuxt-link to="/index-3">Home Style 03</nuxt-link></li>
                   </ul> -->
                 </li>
-                <li :class="`${current === 'About' ? 'current' : ''}`"><nuxt-link to="/about">About Us</nuxt-link></li>
+                <li :class="`${current === 'About' ? 'current' : ''}`"><nuxt-link to="/about">Haqqımızda</nuxt-link></li>
                 <!-- <li class="dropdown"><a href="/team">Pages</a>
                   <ul>
                     <li><nuxt-link to="/team">Our Team</nuxt-link></li>
@@ -42,7 +42,7 @@
                     <li><nuxt-link to="/not-found">404 Page</nuxt-link></li>
                   </ul>
                 </li> -->
-                <li :class="`${current === 'Service' ? 'current' : ''} dropdown`"><nuxt-link to="/service">Services</nuxt-link>
+                <li :class="`${current === 'Service' ? 'current' : ''} dropdown`"><nuxt-link to="/service">Servislərimiz</nuxt-link>
                   <!-- <ul>
                     <li><nuxt-link to="/services">All Services</nuxt-link></li>
                     <li><nuxt-link to="/web-development">Website Development</nuxt-link></li>
@@ -53,7 +53,7 @@
                     <li><nuxt-link to="/ui-designing">UI/UX Designing</nuxt-link></li>
                   </ul> -->
                 </li>
-                <li :class="`${current === 'Product' ? 'current' : ''} dropdown`"><nuxt-link to="/product">Product</nuxt-link>
+                <li :class="`${current === 'Product' ? 'current' : ''} dropdown`"><nuxt-link to="/product">məhsul</nuxt-link>
                   <!-- <ul>
                     <li><nuxt-link to="/product">Product</nuxt-link></li>
                     <li><nuxt-link to="/product-single">Product Single 01</nuxt-link></li>
@@ -63,7 +63,7 @@
                 <li :class="`${current === 'Blog' ? 'current' : ''} dropdown`">
 					<nuxt-link to="/blog">Blog</nuxt-link>
                 </li>
-                <li :class="`${current === 'Contact' ? 'current' : ''} dropdown`"><nuxt-link to="/contact">Contact</nuxt-link></li>
+                <li :class="`${current === 'Contact' ? 'current' : ''} dropdown`"><nuxt-link to="/contact">Əlaqə</nuxt-link></li>
               </ul>
             </div>
           </nav>
@@ -74,7 +74,7 @@
             <div class="call-us">
               <a class="link" href="tel:6668880000">
                 <span class="icon"></span>
-                <span class="sub-text">Call Anytime</span>
+                <span class="sub-text">Əlaqə nömrəsi</span>
                 <span class="number">666 888 0000</span>
               </a>
             </div>
@@ -92,14 +92,14 @@
 
       <div :class="`collapse navbar-collapse ${mobileToggle ? 'show' : ''} clearfix`">
         <ul class="navigation clearfix">
-          <li :class="`${current === 'Home' ? 'current' : ''}`"><a href="/">Home<div ></div></a>
+          <li :class="`${current === 'Home' ? 'current' : ''}`"><a href="/">Ev<div ></div></a>
             <!-- <ul class="sub-menu">
               <li><nuxt-link to="/">Home Style 01</nuxt-link></li>
               <li><nuxt-link to="/index-2">Home Style 02</nuxt-link></li>
               <li><nuxt-link to="/index-3">Home Style 03</nuxt-link></li>
             </ul> -->
           </li>
-          <li :class="`${current === 'About' ? 'current' : ''}`"><nuxt-link to="/about">About Us</nuxt-link></li>
+          <li :class="`${current === 'About' ? 'current' : ''}`"><nuxt-link to="/about">Haqqımızda</nuxt-link></li>
           <!-- <li class="dropdown"><a href="#">Pages<div class="dropdown-btn"><span class="fa fa-angle-right"></span></div></a>
             <ul class="sub-menu">
               <li><nuxt-link to="/team">Our Team</nuxt-link></li>
@@ -108,7 +108,7 @@
               <li><nuxt-link to="/not-found">404 Page</nuxt-link></li>
             </ul>
           </li> -->
-          <li :class="`${current === 'Service' ? 'current' : ''}`"><nuxt-link to="/service">Services<div class="dropdown-btn"></div></nuxt-link>
+          <li :class="`${current === 'Service' ? 'current' : ''}`"><nuxt-link to="/service">Servis<div class="dropdown-btn"></div></nuxt-link>
             <!-- <ul class="sub-menu">
               <li><nuxt-link to="/services">All Services</nuxt-link></li>
               <li><nuxt-link to="/web-development">Website Development</nuxt-link></li>
@@ -119,7 +119,7 @@
               <li><nuxt-link to="/ui-designing">UI/UX Designing</nuxt-link></li>
             </ul> -->
           </li>
-          <li :class="`${current === 'Product' ? 'current' : ''}`"><nuxt-link to="/product">Product<div class="dropdown-btn"></div></nuxt-link>
+          <li :class="`${current === 'Product' ? 'current' : ''}`"><nuxt-link to="/product">Məhsul<div class="dropdown-btn"></div></nuxt-link>
             <!-- <ul class="sub-menu">
               <li><nuxt-link to="/product">Product</nuxt-link></li>
               <li><nuxt-link to="/product-single">Product Single 01</nuxt-link></li>
@@ -133,7 +133,7 @@
               <li><nuxt-link to="/blog-single">Blog Single</nuxt-link></li>
             </ul> -->
           </li>
-          <li :class="`${current === 'Contact' ? 'current' : ''}`"><nuxt-link to="/contact">Contact</nuxt-link></li>
+          <li :class="`${current === 'Contact' ? 'current' : ''}`"><nuxt-link to="/contact">Əlaqə</nuxt-link></li>
         </ul>
       </div>
 	
@@ -176,6 +176,7 @@
     methods: {
       handleScroll() {
         if (window.scrollY > 270) {
+          console.log(window.scrollY)
           this.sticky = true
         } else if (window.scrollY < 270) {
           this.sticky = false
