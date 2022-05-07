@@ -7,8 +7,8 @@
         <div class="base-inner">
           <div class="hours">
             <ul class="clearfix">
-              <li><span>mon - fri</span></li>
-              <li><span>9am - 7pm</span></li>
+              <li><span>b.e - c.</span></li>
+              <li><span>09:00 - 18:00</span></li>
             </ul>
           </div>
           <div class="social-links">
@@ -35,12 +35,12 @@
             <div class="content-box">
               <div class="content">
                 <div class="inner">
-                  <div class="sub-title">welcome to Best Freelance Company</div>
-                  <h1>Make Your<br>Vision Reality</h1>
+                  <div class="sub-title">Ən yaxşı feelance Şirkəti</div>
+                  <h1>Xəyallarını<br>Gerçəkləşdir</h1>
                   <div class="link-box">
                     <nuxt-link class="theme-btn btn-style-one" to="/about">
                       <i class="btn-curve"></i>
-                      <span class="btn-title">Discover More</span>
+                      <span class="btn-title">Daha çox kəşf elə</span>
                     </nuxt-link>
                   </div>
                 </div>
@@ -59,12 +59,12 @@
             <div class="content-box">
               <div class="content">
                 <div class="inner">
-                  <div class="sub-title">welcome to Linoor agency</div>
+                  <div class="sub-title">ButaTech-ə xoş gəlmişsiniz.</div>
                   <h1>Smart Web <br>Design Agency</h1>
                   <div class="link-box">
                     <nuxt-link class="theme-btn btn-style-one" to="/about">
                       <i class="btn-curve"></i>
-                      <span class="btn-title">Discover More</span>
+                      <span class="btn-title">Daha çoxunu kəşf elə</span>
                     </nuxt-link>
                   </div>
                 </div>

@@ -20,7 +20,7 @@
     },
     head(){
       return {
-        title: "Linoor | Testimonials"
+        title: "ButaTech | Testimonials"
       }
     }
   }

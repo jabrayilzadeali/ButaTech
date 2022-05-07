@@ -37,7 +37,7 @@
 	},
     head(){
       return {
-        title: "Linoor | Servislər"
+        title: "ButaTech | Servislər"
       }
     }
   }

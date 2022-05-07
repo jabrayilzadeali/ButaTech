@@ -22,25 +22,28 @@
         <div class="right-col col-lg-6 col-md-12 col-sm-12">
           <div class="inner">
             <div class="sec-title">
-              <h2>See Why you should choose ButaTech <span class="dot">.</span></h2>
+              <h2>Niyə gorə məhz ButaTech <span class="dot">.</span></h2>
             </div>
             <div class="features">
               <div class="feature">
                 <div class="inner-box">
-                  <h6>We Value Your Time and Money</h6>
-                  <div class="text">have affordible prices that not only suitable for individual persons but also large Coorporations</div>
+                  <h6>Vaxtınızı və pulunuzu qiymətləndiririk</h6>
+                  <!-- <div class="text">have affordible prices that not only suitable for individual persons but also large Coorporations</div> -->
+                  <div class="text">Sərfəli qiymətlərimiz nəinki fərdi şəxslərə həmçinin Böyük Şirkətlərə də uyğundur</div>
                 </div>
               </div>
               <div class="feature">
                 <div class="inner-box">
-                  <h6>Quality over Quantity</h6>
-                  <div class="text">Less is More. We focus quality of the project rather than quantity</div>
+                  <h6>Keyfiyyət > Kəmiyyət</h6>
+                  <!-- <div class="text">Less is More. We focus quality of the project rather than quantity</div> -->
+                  <div class="text">Az çoxdan fazladır. Biz kəmiyyətdən daha çox keyfiyyətə fokuslanırıq</div>
                 </div>
               </div>
               <div class="feature">
                 <div class="inner-box">
-                  <h6>super expert team members</h6>
+                  <h6>Eskpert Kamanda Üzvləri</h6>
                   <div class="text">Everyone in out team has experience to build sophisticated applications</div>
+                  <div class="text">Kamandamızdaki hər bir şəxs kompleks programlar qurmaqda bacarıqlıdır</div>
                 </div>
               </div>
             </div>

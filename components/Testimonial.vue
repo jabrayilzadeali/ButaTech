@@ -2,7 +2,7 @@
   <section class="testimonials-section">
     <div class="auto-container">
       <div class="sec-title">
-        <h2>Customer feedbacks <span class="dot">.</span></h2>
+        <h2>Müştəri rəyləri <span class="dot">.</span></h2>
       </div>
       <div class="carousel-box">
         <div class="testimonials-carousel">

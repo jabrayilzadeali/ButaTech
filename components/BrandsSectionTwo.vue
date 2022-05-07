@@ -5,7 +5,7 @@
       <div class="row clearfix">
         <div class="title-col col-xl-5 col-lg-12 col-md-12">
           <div class="sec-title wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-            <h2>Some of the clients we have worked with <span class="dot">.</span></h2>
+            <h2>Bəzi Bizimlə çaLışan müştərilərimiz <span class="dot">.</span></h2>
           </div>
         </div>
 

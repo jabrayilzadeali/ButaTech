@@ -2,7 +2,7 @@
   <section class="team-section">
     <div class="auto-container">
       <div class="sec-title centered">
-        <h2>Meet the expert team<span class="dot">.</span></h2>
+        <h2>Expert Kamandamızla tanış olun<span class="dot">.</span></h2>
       </div>
       <div class="row clearfix">
         <!--Team-->

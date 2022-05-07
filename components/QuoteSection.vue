@@ -7,7 +7,7 @@
           <div class="inner">
             <div class="featured-block clearfix">
               <div class="image"><img src="/images/resource/featured-image-9.jpg" alt=""></div>
-              <h4>our Values & Strategy</h4>
+              <h4>Bizim dəyərlərimiz & Strategiyamız</h4>
               <div class="text">Lorem Ipsum is simply proin gravida nibh vel velit auctor aliquet.
                 Aenean sollicitudin, lorem is simply free text quis bibendum.</div>
             </div>
@@ -15,7 +15,7 @@
               <div class="counter-inner clearfix">
                 <div class="counter-text">
                   <div class="count-box"><span class="count-text">345600</span></div>
-                  <div class="counter-title">projects was completed successfully</div>
+                  <div class="counter-title">Uğurla başa vurulan layihələr</div>
                 </div>
                 <div class="counter-image"><img src="/images/resource/featured-image-10.jpg" alt="">
                 </div>
