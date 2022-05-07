@@ -42,7 +42,7 @@
               <div class="feature">
                 <div class="inner-box">
                   <h6>Eskpert Kamanda Üzvləri</h6>
-                  <div class="text">Everyone in out team has experience to build sophisticated applications</div>
+                  <!-- <div class="text">Everyone in out team has experience to build sophisticated applications</div> -->
                   <div class="text">Kamandamızdaki hər bir şəxs kompleks programlar qurmaqda bacarıqlıdır</div>
                 </div>
               </div>
