@@ -8,7 +8,7 @@
             <div class="image-box"><img src="/images/resource/featured-image-11.jpg" alt=""></div>
             <div class="cap-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
               <div class="cap-inner">
-                <h5>All-in-One Web Solution for Your Business</h5>
+                <h5>Bütün biznes həlləriniz 1 səhifədə</h5>
                 <div class="more-link"><nuxt-link to="/about"><span
                   class="fa fa-angle-right"></span></nuxt-link></div>
               </div>
@@ -21,7 +21,7 @@
             <div class="image-box"><img src="/images/resource/featured-image-12.jpg" alt=""></div>
             <div class="cap-box wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
               <div class="cap-inner">
-                <h5>The best digital agency you’ll ever need</h5>
+                <h5>Sizə lazım olacaq ən yaxşı freelance şirkəti</h5>
                 <div class="more-link"><nuxt-link class="theme-btn" to="/about"><span
                   class="fa fa-angle-right"></span></nuxt-link></div>
               </div>

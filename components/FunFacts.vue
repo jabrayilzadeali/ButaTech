@@ -14,7 +14,7 @@
                   <div class="count-outer count-box">
                     <span class="count-text"><countTo :startVal='0' :endVal='startCounter ? 8705 : 0' :duration='3000'></countTo></span>
                   </div>
-                  <div class="counter-title">Projects Completed</div>
+                  <div class="counter-title">Layihə tamamlanıb</div>
                 </div>
               </div>
             </div>
@@ -26,7 +26,7 @@
                   <div class="count-outer count-box alternate">
                     <span class="count-text"><countTo :startVal='0' :endVal='startCounter ? 480 : 0' :duration='3000'></countTo></span>
                   </div>
-                  <div class="counter-title">Active clients</div>
+                  <div class="counter-title">aktiv Müştəri</div>
                 </div>
               </div>
             </div>
@@ -38,7 +38,7 @@
                   <div class="count-outer count-box">
                     <span class="count-text"><countTo :startVal='0' :endVal='startCounter ? 626 : 0' :duration='3000'></countTo></span>
                   </div>
-                  <div class="counter-title">cups of coffee</div>
+                  <div class="counter-title">fincan kofe</div>
                 </div>
               </div>
             </div>
@@ -50,7 +50,7 @@
                   <div class="count-outer count-box">
                     <span class="count-text"><countTo :startVal='0' :endVal='startCounter ? 9704 : 0' :duration='3000'></countTo></span>
                   </div>
-                  <div class="counter-title">happy clients</div>
+                  <div class="counter-title">xoşbəxt müştərilər</div>
                 </div>
               </div>
             </div>

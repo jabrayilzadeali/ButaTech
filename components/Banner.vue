@@ -35,7 +35,7 @@
             <div class="content-box">
               <div class="content">
                 <div class="inner">
-                  <div class="sub-title">Ən yaxşı feelance Şirkəti</div>
+                  <div class="sub-title">Ən yaxşı freelance Şirkəti</div>
                   <h1>Xəyallarını<br>Gerçəkləşdir</h1>
                   <div class="link-box">
                     <nuxt-link class="theme-btn btn-style-one" to="/about">

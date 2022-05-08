@@ -10,7 +10,7 @@
           <h1>{{ title }}</h1>
           <div class="page-nav">
             <ul class="bread-crumb clearfix">
-              <li><nuxt-link to="/">Home</nuxt-link></li>
+              <li><nuxt-link to="/">Ev</nuxt-link></li>
               <li class="active">{{ title }}</li>
             </ul>
           </div>

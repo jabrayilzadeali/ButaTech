@@ -3,41 +3,41 @@
     <div class="auto-container">
       <div class="form-box">
         <div class="sec-title">
-          <h2>Write Us a Message<span class="dot">.</span></h2>
+          <h2>Bizə mesaj yazın<span class="dot">.</span></h2>
         </div>
         <div class="default-form">
           <form method="post" action="#" id="contact-form">
             <div class="row clearfix">
               <div class="form-group col-lg-6 col-md-6 col-sm-12">
                 <div class="field-inner">
-                  <input type="text" name="username" value="" placeholder="Your Name" required="">
+                  <input type="text" name="username" value="" placeholder="Ad" required="">
                 </div>
               </div>
               <div class="form-group col-lg-6 col-md-6 col-sm-12">
                 <div class="field-inner">
-                  <input type="email" name="email" value="" placeholder="Email Address"
+                  <input type="email" name="email" value="" placeholder="Email "
                          required="">
                 </div>
               </div>
               <div class="form-group col-lg-6 col-md-6 col-sm-12">
                 <div class="field-inner">
-                  <input type="text" name="phone" value="" placeholder="Phone Number" required="">
+                  <input type="text" name="phone" value="" placeholder="Telefon nömrəsi" required="">
                 </div>
               </div>
               <div class="form-group col-lg-6 col-md-6 col-sm-12">
                 <div class="field-inner">
-                  <input type="text" name="subject" value="" placeholder="Subject" required="">
+                  <input type="text" name="subject" value="" placeholder="Mövzu" required="">
                 </div>
               </div>
               <div class="form-group col-lg-12 col-md-12 col-sm-12">
                 <div class="field-inner">
-                  <textarea name="message" placeholder="Write Message" required=""></textarea>
+                  <textarea name="message" placeholder="Mesajınızı yazın" required=""></textarea>
                 </div>
               </div>
               <div class="form-group col-lg-12 col-md-12 col-sm-12">
                 <button class="theme-btn btn-style-one">
                   <i class="btn-curve"></i>
-                  <span class="btn-title">Send message</span>
+                  <span class="btn-title">Mesajı göndər</span>
                 </button>
               </div>
             </div>

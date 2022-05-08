@@ -13,7 +13,7 @@
             </div>
 
             <div class="ac accordion__content">
-              <h2 class="ac-q accordion__title-text" tabIndex="0">Boostup your application traffic is just a step away</h2>
+              <h2 class="ac-q accordion__title-text" tabIndex="0">We help to create visual strategies</h2>
               <div class="ac-a">
                 <p class="accordion__content-desc">There are many variations of passages the majority have suffered alteration in some fo injected humour, or randomised words believable.
                 </p>
@@ -21,14 +21,14 @@
             </div>
 
             <div class="ac">
-              <h2 class="ac-q accordion__title-text" tabIndex="0">How to update application new features</h2>
+              <h2 class="ac-q accordion__title-text" tabIndex="0">Boostup your application traffic is just a step away</h2>
               <div class="ac-a accordion__content">
                 <p class="accordion__content-desc">There are many variations of passages the majority have suffered alteration in some fo injected humour, or randomised words believable.
                 </p>
               </div>
             </div>
             <div class="ac">
-              <h2 class="ac-q accordion__title-text" tabIndex="0">How to connect with the support to improve app experience</h2>
+              <h2 class="ac-q accordion__title-text" tabIndex="0">How to update application new features</h2>
               <div class="ac-a accordion__content">
                 <p class="accordion__content-desc">There are many variations of passages the majority have suffered alteration in some fo injected humour, or randomised words believable.
                 </p>
@@ -41,7 +41,7 @@
         <div class="faq-block col-lg-6 col-md-12 col-sm-12">
           <div class="accordion-container-two">
             <div class="ac">
-              <h2 class="ac-q accordion__title-text" tabIndex="0">Pre and post launch mobile app marketing pitfalls to avoid</h2>
+              <h2 class="ac-q accordion__title-text" tabIndex="0">How to update application new features</h2>
               <div class="ac-a accordion__content">
                 <p class="accordion__content-desc">There are many variations of passages the majority have suffered alteration in some fo injected humour, or randomised words believable.
                 </p>
@@ -49,7 +49,7 @@
             </div>
 
             <div class="ac accordion__content">
-              <h2 class="ac-q accordion__title-text" tabIndex="0">Boostup your application traffic is just a step away</h2>
+              <h2 class="ac-q accordion__title-text" tabIndex="0">How to update application new features</h2>
               <div class="ac-a">
                 <p class="accordion__content-desc">There are many variations of passages the majority have suffered alteration in some fo injected humour, or randomised words believable.
                 </p>
@@ -64,7 +64,7 @@
               </div>
             </div>
             <div class="ac">
-              <h2 class="ac-q accordion__title-text" tabIndex="0">How to connect with the support to improve app experience</h2>
+              <h2 class="ac-q accordion__title-text" tabIndex="0">How to update application new features</h2>
               <div class="ac-a accordion__content">
                 <p class="accordion__content-desc">There are many variations of passages the majority have suffered alteration in some fo injected humour, or randomised words believable.
                 </p>

@@ -9,7 +9,7 @@
         <div class="link-box">
           <nuxt-link class="theme-btn btn-style-two" to="/about">
             <i class="btn-curve"></i>
-            <span class="btn-title">Contact with us</span>
+            <span class="btn-title">Bizimlə əlaqə saxlayın</span>
           </nuxt-link>
         </div>
       </div>

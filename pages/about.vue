@@ -1,7 +1,7 @@
 <template>
   <div>
     <Nav current="About" />
-    <PageHeader title="Haqqımızda" img="/images/custom/about/about.jpg"/>
+    <PageHeader title="Haqqımızda" img="/images/custom/about/about.jpg" />
     <DiscoverPage />
     <Testimonial />
     <FunFacts />

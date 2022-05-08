@@ -13,7 +13,7 @@
                 <div class="logo">
                   <nuxt-link to="/"><img id="fLogo" src="/images/logo.png" alt="" /></nuxt-link>
                 </div>
-                <div class="text">ButaTech-ə xoş gəlmişsinizdir.</div>
+                <div class="text">ButaTech-ə xoş gəlmişsinizdir. Bizim haqqımızda qısaca məlumat</div>
                 <ul class="social-links clearfix">
                   <li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
                   <li><a href="#"><span class="fab fa-twitter"></span></a></li>
@@ -32,16 +32,16 @@
                 <div class="row clearfix">
                   <div class="col-md-6 col-sm-12">
                     <ul>
-                      <li><a href="/">Home</a></li>
-                      <li><a href="/about">About</a></li>
-                      <li><a href="services">Services</a></li>
+                      <li><a href="/">Ev</a></li>
+                      <li><a href="/about">Haqqımızda</a></li>
+                      <li><a href="services">Servislərimiz</a></li>
                     </ul>
                   </div>
                   <div class="col-md-6 col-sm-12">
                     <ul>
-                      <li><a href="product">Product</a></li>
+                      <li><a href="product">Məhsullar</a></li>
                       <li><a href="blog">Blog</a></li>
-                      <li><a href="contact">Contact</a></li>
+                      <li><a href="contact">Əlaqə</a></li>
                     </ul>
                   </div>
                 </div>
@@ -82,7 +82,7 @@
                 <!-- <div class="text">Sign up for our latest news & articles. We won’t give you spam
                   mails.</div> -->
                 <div class="text">Ən son xəbərlər & Məqalələr üçün Abunə olun. Biz sizə heç vaxt spam
-                  mail verməyəcəyik.</div>
+                  mail göndərməyəcəyik.</div>
               </div>
             </div>
           </div>

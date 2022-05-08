@@ -6,11 +6,11 @@
           <!--Filter-->
           <div class="filters centered clearfix">
             <ul class="filter-tabs filter-btns clearfix">
-              <li class="filter mixitup-control-active" data-role="button" data-filter="all">All<sup></sup></li>
-              <li class="filter" data-role="button" data-filter=".branding">Branding<sup></sup></li>
-              <li class="filter" data-role="button" data-filter=".illustration">illustration<sup></sup></li>
-              <li class="filter" data-role="button" data-filter=".photography">Photography<sup></sup></li>
-              <li class="filter" data-role="button" data-filter=".web-design">Web Design<sup></sup></li>
+              <li class="filter mixitup-control-active" data-role="button" data-filter="all">hamısı<sup></sup></li>
+              <li class="filter" data-role="button" data-filter=".branding">Brendlər<sup></sup></li>
+              <li class="filter" data-role="button" data-filter=".illustration">illüstrasiya<sup></sup></li>
+              <li class="filter" data-role="button" data-filter=".photography">Fotoqrafiya<sup></sup></li>
+              <li class="filter" data-role="button" data-filter=".web-design">Web Dizayn<sup></sup></li>
               <li class="filter" data-role="button" data-filter=".first">First<sup></sup></li>
               <li class="filter" data-role="button" data-filter=".second">Second<sup></sup></li>
             </ul>
