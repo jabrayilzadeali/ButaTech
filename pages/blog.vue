@@ -1,8 +1,9 @@
 <template>
   <div>
     <Nav current="Blog" />
-    <PageHeader title="Tezliklə gələcək" img="/images/custom/blogs/blog.jpg" />
+    <!-- <PageHeader title="Blog" img="/images/custom/blogs/blog.jpg" /> -->
     <!-- <BlogSidebar :articles="articles" /> -->
+	<h1 class="tezlikle">Tezliklə <span class="gelecek">gələcək</span></h1>
     <Footer />
   </div>
 </template>
@@ -35,3 +36,17 @@
     }
   }
 </script>
+
+<style>
+.tezlikle {
+	padding: 300px 0;
+	margin: 0;
+	text-align: center;
+	color: white;
+	background-color: #222429 !important;
+}
+
+.gelecek {
+	color: yellow;
+}
+</style>

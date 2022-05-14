@@ -12,7 +12,7 @@
         <div class="right-col col-lg-6 col-md-12 col-sm-12">
           <div class="inner">
             <div class="sec-title">
-              <h2>MAKE WEBSITES WITHOUT TOUCHING the CODing <span class="dot">.</span></h2>
+              <h2>Haqqımızda nese melumat burada<span class="dot">.</span></h2>
               <div class="lower-text">We are committed to providing our customers with exceptional
                 service while offering our employees the best training. There are many variations of
                 passages of lorem ipsum is simply free text available in the market, but the

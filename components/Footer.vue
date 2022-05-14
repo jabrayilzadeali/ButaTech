@@ -39,7 +39,7 @@
                   </div>
                   <div class="col-md-6 col-sm-12">
                     <ul>
-                      <li><a href="product">Məhsullar</a></li>
+                      <li><a href="product">Lahiyə</a></li>
                       <li><a href="blog">Blog</a></li>
                       <li><a href="contact">Əlaqə</a></li>
                     </ul>
@@ -68,11 +68,12 @@
           <div class="column col-xl-3 col-lg-6 col-md-6 col-sm-12">
             <div class="footer-widget newsletter-widget">
               <div class="widget-content">
-                <h6>Newsletter</h6>
+                <!-- <h6>Newsletter</h6> -->
+                <h6>Xəbərlər</h6>
                 <div class="newsletter-form">
                   <form method="post" action="#">
                     <div class="form-group clearfix">
-                      <input type="email" name="email" value="" placeholder="Email Address"
+                      <input type="email" name="email" value="" placeholder="Email Addresiniz"
                              required="">
                       <button type="submit" class="theme-btn"><span
                         class="fa fa-envelope"></span></button>

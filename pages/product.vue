@@ -1,7 +1,7 @@
 <template>
   <div>
     <Nav current="Product" />
-    <PageHeader title="Məhsullar" img="/images/custom/product/product.jpg" />
+    <PageHeader title="Lahiyə" img="/images/custom/product/product.jpg" />
 	<!-- {{ products }} -->
     <GalleryPage :products="products"/>
     <Footer />

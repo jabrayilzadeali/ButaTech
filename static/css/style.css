@@ -2743,8 +2743,8 @@ img.lazy-image.loaded {
 .sec-title h2 {
   position: relative;
   display: block;
-  font-size: 70px;
-  line-height: 0.9em;
+  font-size: 59px;
+  line-height: 1.1em;
   text-transform: uppercase;
   color: var(--thm-black);
   font-weight: 400;
@@ -2768,7 +2768,7 @@ img.lazy-image.loaded {
   font-weight: 300;
   letter-spacing: 0.1em;
   color: var(--thm-text);
-  padding: 30px 0px 0px;
+  padding: 10px 0px 0px;
 }
 
 /***

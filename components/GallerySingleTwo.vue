@@ -30,7 +30,7 @@
               <div class="inner">
                 <ul class="info">
                   <li><strong>Clients:</strong> <br>Jessica Brown</li>
-                  <li><strong>Category:</strong> <br>Graphic, Illustrations</li>
+                  <li><strong>Category:</strong> <br>{{ product.tags }}</li>
                   <li><strong>Date:</strong> <br>20 May, 2020</li>
                 </ul>
               </div>

@@ -53,7 +53,7 @@
                     <li><nuxt-link to="/ui-designing">UI/UX Designing</nuxt-link></li>
                   </ul> -->
                 </li>
-                <li :class="`${current === 'Product' ? 'current' : ''} dropdown`"><nuxt-link to="/product">məhsul</nuxt-link>
+                <li :class="`${current === 'Product' ? 'current' : ''} dropdown`"><nuxt-link to="/product">Lahiyə</nuxt-link>
                   <!-- <ul>
                     <li><nuxt-link to="/product">Product</nuxt-link></li>
                     <li><nuxt-link to="/product-single">Product Single 01</nuxt-link></li>
