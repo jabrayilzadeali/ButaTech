@@ -629,6 +629,7 @@
                 <nuxt-link :to="{ name: 'services-slug', params: { slug: service.slug }}">
                   <h5><a href="#">{{ service.title }}</a></h5>
                 </nuxt-link>
+			  <div class="price">{{ service.basic }} man</div>
               <div class="text">{{ service.description }}</div>
               <nuxt-link :to="{ name: 'services-slug', params: { slug: service.slug }}">
                 <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
@@ -657,7 +658,7 @@
 
 <style scoped>
 .the-height {
-	height: 330px !important;
+	height: 380px !important;
 }
 
 .custom-svg {
@@ -666,6 +667,10 @@
 
 .custom-svg path {
   fill: hsl(219, 100%, 73%);
+}
+
+.price {
+	font-size: 3rem;
 }
 
 </style>

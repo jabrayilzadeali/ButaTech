@@ -1,6 +1,6 @@
 <template>
   <section class="parallax-section">
-    <div class="image-layer" style="background-image: url(/images/background/image-2.jpg);"></div>
+    <div class="image-layer" style="background-image: url(/images/custom/about/parallax_section.jpg);"></div>
     <div class="auto-container">
       <div class="content-box">
         <div class="icon-box"><span class="flaticon-app-development"></span></div>

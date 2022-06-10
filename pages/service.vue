@@ -26,10 +26,11 @@
     },
 	async asyncData({ $content, params }) {
 		const services = await $content('services', params.slug)
-		 	.only(['title', 'description', 'icon', 'slug'])
+		 	.only(['title', 'description', 'icon', 'slug', 'basic'])
 			.sortBy('createdAt', 'asc')
 			.fetch();
 
+		console.log('-----------------------------------------------------------------')
 		console.log(services)
 		return {
 			services

@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<Nav current="Service"/>
-		<PageHeader title="Service Page" />
+		<PageHeader :title="service.title" img="/images/custom/service/graphic-design/graphic-design.jpg"/>
 		<ServiceDetails :service="service" />
 		<!-- <BlogSingle :article="article" /> -->
 		<Footer />
@@ -15,17 +15,29 @@
 	import ServiceDetails from '../../components/ServiceDetails.vue';
 	export default {
 		components: {
-		PageHeader,
-		Footer,
-		Nav,
-		ServiceDetails
-	},
+      PageHeader,
+      Footer,
+      Nav,
+      ServiceDetails
+    },
 	  
-    async asyncData ({ $content, params }) {
-      const service = await $content('services', params.slug).fetch();
-	  console.log(params)
-	  console.log(params.slug)
+    // async asyncData ({ $content, params }) {
+    //   const services = await $content('services', params.slug)
+    //     .only(['title', 'description', 'icon', 'slug'])
+    //     .sortBy('createdAt', 'asc')
+    //     .fetch();
 
+
+
+    //   return {
+    //     service, services
+    //   }
+    // },
+    async asyncData({ $content, params }) {
+
+        const service = await $content('services', params.slug).fetch();
+        console.log(params)
+        console.log(params.slug)
       return {
         service
       }

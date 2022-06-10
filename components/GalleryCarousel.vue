@@ -2,7 +2,7 @@
   <section class="gallery-section-two">
     <div class="auto-container">
       <div class="sec-title centered">
-        <h2>Yeni Məhsullarımız <span class="dot">.</span></h2>
+        <h2>Yeni Lahiyələrimiz <span class="dot">.</span></h2>
       </div>
     </div>
     <!--Porfolio Tabs-->

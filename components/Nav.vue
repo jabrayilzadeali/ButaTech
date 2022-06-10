@@ -154,6 +154,7 @@
     },
     data(){
       return {
+		color: [0, 255, 0, 1],
         sticky: false,
         mobileToggle: false,
       }
@@ -175,10 +176,9 @@
     },
     methods: {
       handleScroll() {
-        if (window.scrollY > 270) {
-          console.log(window.scrollY)
+        if (window.scrollY > 230) {
           this.sticky = true
-        } else if (window.scrollY < 270) {
+        } else if (window.scrollY < 230) {
           this.sticky = false
         }
       },
@@ -190,4 +190,21 @@
 </script>
 
 <style>
+	.fixed-header .header-upper {
+	/* background: #e4d7d762; */
+
+	/* From https://css.glass */
+	background: rgba(111, 110, 110, 0.42);
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(7.7px);
+	-webkit-backdrop-filter: blur(7.7px);
+	border: 1px solid rgba(111, 110, 110, 0.19);
+
+	/* background: linear-gradient(90deg, rgba(215,215,233,0.7035189075630253) 0%, rgba(21,25,37,0.7231267507002801) 100%); */
+	/* -webkit-box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.08);
+	-moz-box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.08);
+	-ms-box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.08);
+	-o-box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.08);
+	box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.08); */
+	}
 </style>

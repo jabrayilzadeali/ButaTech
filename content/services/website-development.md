@@ -1,8 +1,11 @@
 ---
-title: Website Development
+title: Web Development
 description: Website Development service description
 slug: website-development
 icon: flaticon-responsive
+basic: 30
+standart: 80
+advanced: 120
 ---
 
 # Okay This is Website Development
