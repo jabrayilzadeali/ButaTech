@@ -9913,3 +9913,12 @@ html {
 .mobile-nav__container .dropdown.open .dropdown-btn span{
     color: #ffaa16;
 }
+
+/* drift */
+#drift-frame-chat {
+	z-index: 10000;
+}
+
+#drift-frame-controller {
+	z-index: 10000
+}
