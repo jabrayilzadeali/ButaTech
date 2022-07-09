@@ -1,3 +1,4 @@
+// https://chrisdermody.com/adding-drift-chat-widget-to-a-nuxt-js-app/
 export default () => {
 	"use strict";
 
