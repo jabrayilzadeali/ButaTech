@@ -14,9 +14,9 @@
     "@nuxt/content": "^1.15.1",
     "mixitup": "^3.3.1",
     "nuxt": "^2.15.8",
-    "swiper": "^8.3.0",
-    "v-owl-carousel": "^1.0.3",
-    "vue-awesome-swiper": "^5.0.1",
+    "swiper": "^5.4.5",
+    "v-owl-carousel": "^1.0.8",
+    "vue-awesome-swiper": "^4.1.1",
     "vue-count-to": "^1.0.13",
     "vue-observe-visibility": "^0.4.6"
   },
