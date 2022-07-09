@@ -39,6 +39,7 @@
 //   import BlogSection from "../components/BlogSection";
 //   import FluidSection from "../components/FluidSection";
   import CallToAction from "../components/CallToAction";
+
   export default {
     components: {
     //   FluidSection,
@@ -82,4 +83,5 @@
       }
     }
   }
+
 </script>
