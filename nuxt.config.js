@@ -48,7 +48,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-		{src:"plugins/drift.js", mode:'client'},
+		{src:"plugins/drift.js", mode:'client', ssr: false},
     {src: 'plugins/owl.js', ssr: false},
     {src: 'plugins/mixitup.js', ssr: false},
   ],
