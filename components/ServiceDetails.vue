@@ -9,9 +9,10 @@
             <div class="main-image image">
               <img src="/images/resource/featured-image-16.jpg" alt="">
             </div>
+			{{ service.basic_features }}
             <div class="text-content">
               <h1 id="service-name">{{ service.title }}</h1>
-			  <table class="pricing">
+			  <!-- <table class="pricing">
 				  <tr>
 					  <th>Bəsit</th>
 					  <th>Standart</th>
@@ -22,7 +23,43 @@
 					  <td>{{ service.standart}}</td>
 					  <td>{{ service.advanced }}</td>
 				  </tr>
-			  </table>
+			  </table> -->
+			  <!-- <div class="pricing-data">
+				<div class="basic">
+					<h3 class="pricing-name">Bəsit</h3>
+					<div class="price">{{ service.basic }} AZN</div>
+					<ul class="features">
+						<li class="feature">besit 1</li>
+						<li class="feature">besit 2</li>
+						<li class="feature">besit 3</li>
+						<li class="feature">besit 4</li>
+					</ul>
+					<button class="contact">Əlaqə</button>
+				</div>
+				<div class="standart">
+					<h3 class="pricing-name">Standart</h3>
+					<div class="price">{{ service.standart }} AZN</div>
+					<ul class="features">
+						<li class="feature">Standart 1</li>
+						<li class="feature">Standart 2</li>
+						<li class="feature">Standart 3</li>
+						<li class="feature">Standart 4</li>
+					</ul>
+					<button class="contact">Əlaqə</button>
+				</div>
+				<div class="advanced">
+					<h3 class="pricing-name">Professional</h3>
+					<div class="price">{{ service.advanced }} AZN</div>
+					<ul class="features">
+						<li class="feature">Professional 1</li>
+						<li class="feature">Professional 2</li>
+						<li class="feature">Professional 3</li>
+						<li class="feature">Professional 4</li>
+					</ul>
+					<div class="contact"><nuxt-link to="/contact">Əlaqə</nuxt-link></div>
+				</div>
+			  </div> -->
+
 			  <nuxt-content :document="service" />
               <!-- <p>Need something changed or is there something not quite working the way you envisaged?
                 Is your van a little old and tired and need refreshing? Lorem Ipsum is simply dummy
@@ -152,12 +189,87 @@ h5 {
 	font-size: 1.2rem;
 }
 
-table {
+.pricing-data {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.pricing-data > div {
+	border: 1px solid black;
+	width: 100%;
+	margin: 10px;
+	text-align: center;
+}
+
+.pricing-data > div:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+}
+
+h3.pricing-name {
+	background-color: black;
+	color: white;
+	font-size: 2.5rem;
+	margin: 0;
+	padding: 1rem;
+	text-align: center;
+}
+
+.price {
+	text-align: center;
+	padding: 1rem;
+	font-size: 1.5rem;
+	background-color: #eee;
+	color: black;
+}
+
+.contact {
+	background-color: #eee;
+	padding: 1rem;
+}
+
+.contact a {
+	padding: 1rem;
+	background-color: green;
+	color: white;
+}
+
+.rounded-lg {
+  border-radius: 1rem !important;
+}
+
+.text-small {
+  font-size: 0.9rem !important;
+}
+
+.custom-separator {
+  width: 5rem;
+  height: 6px;
+  border-radius: 1rem;
+}
+
+.text-uppercase {
+  letter-spacing: 0.2em;
+}
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+
+/* .feature {
+	border-bottom: 1px solid black;
+} */
+
+/* table {
 	border-collapse: collapse;
 	width: 100%;
 }
 
-th, th {
+th {
 	border: 1px solid #000;
 	text-align: center;
 	padding: 8px;
@@ -166,6 +278,10 @@ th, th {
 td {
 	text-align: center;
 }
+
+th, td {
+	width: 25%;
+} */
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */

@@ -9270,11 +9270,11 @@ img.lazy-image.loaded {
 
 .service-details .text-content ul li {
   position: relative;
-  padding-left: 30px;
-  margin-bottom: 10px;
+  /* padding-left: 30px; */
+  /* margin-bottom: 10px; */
 }
 
-.service-details .text-content ul li:before {
+/* .service-details .text-content ul li:before {
   content: "\f131";
   font-family: "Flaticon";
   position: absolute;
@@ -9283,7 +9283,7 @@ img.lazy-image.loaded {
   color: var(--thm-base);
   font-weight: 400;
   font-size: 18px;
-}
+} */
 
 /***
 

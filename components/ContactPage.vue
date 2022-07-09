@@ -6,7 +6,7 @@
           <h2>Bizə mesaj yazın<span class="dot">.</span></h2>
         </div>
         <div class="default-form">
-          <form method="post" action="#" id="contact-form">
+          <form method="post" action="https://formsubmit.co/jabrayilzadeali@protonmail.com" id="contact-form">
             <div class="row clearfix">
               <div class="form-group col-lg-6 col-md-6 col-sm-12">
                 <div class="field-inner">

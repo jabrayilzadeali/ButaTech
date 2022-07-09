@@ -624,16 +624,18 @@
             </div>
 
             <div v-else class="inner-box the-height">
-              <div class="bottom-curve"></div>
-              <div class="icon-box"><span :class="service.icon"></span></div>
-                <nuxt-link :to="{ name: 'services-slug', params: { slug: service.slug }}">
-                  <h5><a href="#">{{ service.title }}</a></h5>
-                </nuxt-link>
-			  <div class="price">{{ service.basic }} man</div>
-              <div class="text">{{ service.description }}</div>
-              <nuxt-link :to="{ name: 'services-slug', params: { slug: service.slug }}">
-                <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
-              </nuxt-link>
+			  <div class="distance">
+				<div class="bottom-curve"></div>
+				<div class="icon-box"><span :class="service.icon"></span></div>
+					<nuxt-link :to="{ name: 'services-slug', params: { slug: service.slug }}">
+					<h5><a href="#">{{ service.title }}</a></h5>
+					</nuxt-link>
+				<div class="text">{{ service.description }}</div>
+				<nuxt-link :to="{ name: 'services-slug', params: { slug: service.slug }}">
+					<div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
+				</nuxt-link>
+			  </div>
+			  <div class="price-item">{{ service.basic }} AZN</div>
             </div>
           </div>
 
@@ -659,6 +661,10 @@
 <style scoped>
 .the-height {
 	height: 380px !important;
+	padding-top: 2rem;	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .custom-svg {
@@ -669,8 +675,23 @@
   fill: hsl(219, 100%, 73%);
 }
 
-.price {
-	font-size: 3rem;
+.price-item {
+	font-size: 1.8rem;
+	text-align: center;
+	padding: .3rem;
+	border-radius: 1rem;
+	background-color: #73a5ff;
+	color: white;
+	z-index: 100;
+}
+
+.price-item:hover() {
+	background-color: red !important;
+}
+
+.service-block:hover() .price-item {
+	color: white;
+	background-color: yellow;
 }
 
 </style>
