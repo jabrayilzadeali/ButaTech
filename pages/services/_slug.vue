@@ -128,7 +128,6 @@
 				<div class="col-lg-4">
 					<div 
 						class="card__inner enterprise bg-white rounded-lg shadow"
-						v-on:click="cardFlipAnimation(this, 'enterprise')"
 						>
 						<figure class="front p-5">
 							<h1 class="h6 text-uppercase font-weight-bold mb-4">Enterprise</h1>
@@ -151,25 +150,36 @@
 									{{ item }}
 								</li>
 							</ul>
-							<a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">Əlaqə</a>
-
+							<button 
+								class="btn btn-primary btn-block p-2 shadow rounded-pill"
+								v-on:click="cardFlipAnimation(this, 'enterprise')"
+								>
+								Əlaqə
+							</button>
 						</figure>
 						<figure class="back p-5">
-							<h5>This is the card of enterprise</h5>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia facere dicta doloribus molestiae voluptate eos! Neque, quibusdam, in atque sunt aperiam quidem unde quos aliquid esse magnam modi incidunt omnis?</p>
-							<form>
-								<div class="form-group row">
-									<label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-									<br>
-									<div class="col-sm-10">
-										<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-									</div>
+							<h1 class="h6 text-uppercase font-weight-bold mb-4">Enterprise</h1>
+							<form class="text-left">
+								<div class="form-group">
+									<label for="costumer-name">Ad</label>
+									<input type="text" class="form-control" id="costumer-name" placeholder="Şahin">
 								</div>
 								<div class="form-group">
-									<label for="exampleFormControlTextarea1">Example textarea</label>
+									<label for="costumer-email">Email</label>
+									<input type="email" class="form-control" id="costumer-email" aria-describedby="emailHelp" placeholder="sahin@butatech.com">
+								</div>
+								<div class="form-group">
+									<label for="exampleFormControlTextarea1">Məlumat</label>
 									<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 								</div>
+								<input type="submit" class="btn btn-block rounded-pill my-3 p-2 btn-dark" value="Göndər">
 							</form>
+							<button 
+								class="btn btn-danger btn-block my-3 p-2 shadow rounded-pill"
+								v-on:click="cardFlipAnimation(this, 'enterprise')"
+								>
+								Geri
+							</button>
 						</figure>
 					</div>
 				</div>
