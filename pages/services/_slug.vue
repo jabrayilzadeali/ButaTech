@@ -121,42 +121,56 @@
 						</div>
 					</div>
 				</div> -->
+			</div>
 
+
+			<div class="row">
 				<div class="col-lg-4">
-					<div class="bg-white rounded-lg shadow">
-						<div 
-							class="card__inner enterprise"
-							v-on:click="cardFlipAnimation(this, 'enterprise')"
-							>
-							<figure class="front p-5">
-								<h1 class="h6 text-uppercase font-weight-bold mb-4">Enterprise</h1>
-								<h2 class="h1 font-weight-bold">
-									{{ service.advanced }} <svg class="manat" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M224 64V98.65C314.8 113.9 384 192.9 384 288V448C384 465.7 369.7 480 352 480C334.3 480 320 465.7 320 448V288C320 228.4 279.2 178.2 224 164V448C224 465.7 209.7 480 192 480C174.3 480 160 465.7 160 448V164C104.8 178.2 64 228.4 64 288V448C64 465.7 49.67 480 32 480C14.33 480 0 465.7 0 448V288C0 192.9 69.19 113.9 160 98.65V64C160 46.33 174.3 32 192 32C209.7 32 224 46.33 224 64z"/></svg>
-									<span class="text-small font-weight-normal ml-2">/ saat</span>
-								</h2>
-								<div class="custom-separator my-4 mx-auto bg-primary"></div>
-								<ul class="list-unstyled my-5 text-small text-left font-weight-normal">
-									<li class="mb-3" v-for="item in service.basic_features.split(',')" :key="item">
-										<i class="fa fa-check mr-2 text-primary"></i>
-										{{ item }}
-									</li>
-									<li class="mb-3 text-muted" v-for="item in service.standart_features.split(',')" :key="item">
-										<i class="fa fa-check mr-2 text-primary"></i>
-										{{ item }}
-									</li>
-									<li class="mb-3 text-muted" v-for="item in service.advanced_features.split(',')" :key="item">
-										<i class="fa fa-check mr-2 text-primary"></i>
-										{{ item }}
-									</li>
-								</ul>
-								<a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">Əlaqə</a>
+					<div 
+						class="card__inner enterprise bg-white rounded-lg shadow"
+						v-on:click="cardFlipAnimation(this, 'enterprise')"
+						>
+						<figure class="front p-5">
+							<h1 class="h6 text-uppercase font-weight-bold mb-4">Enterprise</h1>
+							<h2 class="h1 font-weight-bold">
+								{{ service.advanced }} <svg class="manat" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M224 64V98.65C314.8 113.9 384 192.9 384 288V448C384 465.7 369.7 480 352 480C334.3 480 320 465.7 320 448V288C320 228.4 279.2 178.2 224 164V448C224 465.7 209.7 480 192 480C174.3 480 160 465.7 160 448V164C104.8 178.2 64 228.4 64 288V448C64 465.7 49.67 480 32 480C14.33 480 0 465.7 0 448V288C0 192.9 69.19 113.9 160 98.65V64C160 46.33 174.3 32 192 32C209.7 32 224 46.33 224 64z"/></svg>
+								<span class="text-small font-weight-normal ml-2">/ saat</span>
+							</h2>
+							<div class="custom-separator my-4 mx-auto bg-primary"></div>
+							<ul class="list-unstyled my-5 text-small text-left font-weight-normal">
+								<li class="mb-3" v-for="item in service.basic_features.split(',')" :key="item">
+									<i class="fa fa-check mr-2 text-primary"></i>
+									{{ item }}
+								</li>
+								<li class="mb-3 text-muted" v-for="item in service.standart_features.split(',')" :key="item">
+									<i class="fa fa-check mr-2 text-primary"></i>
+									{{ item }}
+								</li>
+								<li class="mb-3 text-muted" v-for="item in service.advanced_features.split(',')" :key="item">
+									<i class="fa fa-check mr-2 text-primary"></i>
+									{{ item }}
+								</li>
+							</ul>
+							<a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">Əlaqə</a>
 
-							</figure>
-							<figure class="back p-5">
-								This is the card of enterprise
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia facere dicta doloribus molestiae voluptate eos! Neque, quibusdam, in atque sunt aperiam quidem unde quos aliquid esse magnam modi incidunt omnis?</p>
-							</figure>
-						</div>
+						</figure>
+						<figure class="back p-5">
+							<h5>This is the card of enterprise</h5>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia facere dicta doloribus molestiae voluptate eos! Neque, quibusdam, in atque sunt aperiam quidem unde quos aliquid esse magnam modi incidunt omnis?</p>
+							<form>
+								<div class="form-group row">
+									<label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+									<br>
+									<div class="col-sm-10">
+										<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="exampleFormControlTextarea1">Example textarea</label>
+									<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+								</div>
+							</form>
+						</figure>
 					</div>
 				</div>
 				<!-- END -->
