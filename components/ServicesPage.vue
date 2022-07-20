@@ -8,7 +8,7 @@
             <!-- <div v-if="service.title === 'It' || service.title === 'Programming'">The Cool It</div> -->
 
 
-            <div v-if="service.title === 'cnc'" class="inner-box the-height">
+            <nuxt-link to="services/cnc" v-if="service.title === 'cnc'" class="inner-box the-height">
               <div class="bottom-curve"></div>
               <div class="icon-box">
                 <svg xmlns="http://www.w3.org/2000/svg"
@@ -197,9 +197,9 @@
               <h5><a href="services/cnc">CNC</a></h5>
               <div class="text">Lorem ipsum is are many variations of pass of majority.</div>
               <div class="link-box"><a href="services/cnc"><span class="fa fa-angle-right"></span></a></div>
-            </div>
+            </nuxt-link>
 
-            <div v-else-if="service.title === 'laser'" class="inner-box the-height">
+            <nuxt-link to="services/laser" v-else-if="service.title === 'laser'" class="inner-box the-height">
               <div class="bottom-curve"></div>
               <div class="icon-box">
                 <svg xmlns="http://www.w3.org/2000/svg"
@@ -398,12 +398,12 @@
               <h5><a href="services/laser">Laser</a></h5>
               <div class="text">Lorem ipsum is are many variations of pass of majority.</div>
               <div class="link-box"><a href="services/laser"><span class="fa fa-angle-right"></span></a></div>
-            </div>
+            </nuxt-link>
 
 
 
 
-            <div v-else-if="service.title === 'pcb'" class="inner-box the-height">
+            <nuxt-link to="services/pcb" v-else-if="service.title === 'pcb'" class="inner-box the-height">
               <div class="bottom-curve"></div>
               <div class="icon-box">
                   
@@ -621,25 +621,24 @@
               <h5><a href="services/pcb">Pcb</a></h5>
               <div class="text">Lorem ipsum is are many variations of pass of majority.</div>
               <div class="link-box"><a href="services/pcb"><span class="fa fa-angle-right"></span></a></div>
-            </div>
+            </nuxt-link>
 
-            <div v-else class="inner-box the-height">
-			  <div class="distance">
-				<div class="bottom-curve"></div>
-				<div class="icon-box"><span :class="service.icon"></span></div>
-					<nuxt-link :to="{ name: 'services-slug', params: { slug: service.slug }}">
-					<h5><a href="#">{{ service.title }}</a></h5>
-					</nuxt-link>
-				<div class="text">{{ service.description }}</div>
-				<nuxt-link :to="{ name: 'services-slug', params: { slug: service.slug }}">
-					<div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
-				</nuxt-link>
-			  </div>
-			  <div class="price-item">{{ service.basic }} AZN</div>
-            </div>
+            <nuxt-link :to="{ name: 'services-slug', params: { slug: service.slug }}" v-else class="inner-box the-height">
+              <div class="distance">
+                <div class="bottom-curve"></div>
+                <div class="icon-box"><span :class="service.icon"></span></div>
+                <nuxt-link :to="{ name: 'services-slug', params: { slug: service.slug }}">
+                  <h5><a href="#">{{ service.title }}</a></h5>
+                </nuxt-link>
+                <div class="text">{{ service.description }}</div>
+                <nuxt-link :to="{ name: 'services-slug', params: { slug: service.slug }}">
+                  <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
+                </nuxt-link>
+              </div>
+              <div class="price-item">{{ service.basic }} AZN</div>
+            </nuxt-link>
+
           </div>
-
-
         </div>
       </div>
     </div>

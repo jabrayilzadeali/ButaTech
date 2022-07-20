@@ -7,7 +7,7 @@
         <!--Logo-->
         <div class="logo-box">
           <div class="logo">
-            <a href="/" title="Linoor - Digital Agency Template" id="thm-logo-container">
+            <a href="/" title="Butatech" id="thm-logo-container">
               <!-- <img src="/images/logo-background.png" alt=""> -->
               <!-- <div class="left-top-curve"></div> -->
               <!-- <div class="left-top-curve"></div> -->

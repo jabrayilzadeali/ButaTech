@@ -9532,7 +9532,14 @@ img.lazy-image.loaded {
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 0px;
-  background: #fff;
+  /* background-color: #3067b2; */
+
+	background: rgba(111, 110, 110, 0.42);
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(7.7px);
+	-webkit-backdrop-filter: blur(7.7px);
+	border: 1px solid rgba(111, 110, 110, 0.19);
+
   margin-top: 135px;
   transform: translateY(-38px);
 }
@@ -9611,7 +9618,7 @@ img.lazy-image.loaded {
 
 .mobile-nav__container li a {
   text-transform: uppercase;
-  color: #9ca3a9;
+  color: #fff;
   font-size: 20px;
   letter-spacing: 1px;
   line-height: 24px;
@@ -9623,12 +9630,12 @@ img.lazy-image.loaded {
 }
 
 .mobile-nav__container li a:hover {
-  color: var(--thm-base);
+  color: #a5dad7;
 }
 
 .mobile-nav__container li.current-menu-item > a,
 .mobile-nav__container li.current > a {
-  color: var(--thm-base);
+  color: #75edf9;
 }
 
 .side-menu__social {
