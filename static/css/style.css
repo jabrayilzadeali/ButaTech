@@ -9534,11 +9534,10 @@ img.lazy-image.loaded {
   padding-top: 0px;
   /* background-color: #3067b2; */
 
-	background: rgba(111, 110, 110, 0.42);
-	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-	backdrop-filter: blur(7.7px);
-	-webkit-backdrop-filter: blur(7.7px);
-	border: 1px solid rgba(111, 110, 110, 0.19);
+  background: rgba(111, 110, 110, 0.42);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.7px);
+  -webkit-backdrop-filter: blur(7.7px);
 
   margin-top: 135px;
   transform: translateY(-38px);
